@@ -14,13 +14,13 @@ Data analyst with eight years of experience building automated analytical produc
 
 **Technical:** SQL · SAS · R (ggplot2, plotly, R Markdown) · Excel · ETL pipeline design · Large-scale data processing (800M+ records) · Automated QA and data quality frameworks · Code versioning · Reproducible analytics
 
-**Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Looker · Reports tailored for technical and non-technical audiences
+**Visualisation & Reporting:** Interactive visualisations and reports in R · Looker · Reports tailored for technical and non-technical audiences
 
 **Analysis:** Statistical analysis · Problem structuring · Translating ambiguous requirements into data-driven solutions · Multi-source data consolidation and integration
 
 **Delivery & Collaboration:** Cross-functional agile delivery · Data product lifecycle ownership · Stakeholder engagement and briefing · Coaching and mentoring analysts
 
-**Technical Skills:** SAS · SQL · R · Python · Looker · Power BI · Excel · Git
+**Technical Skills:** SAS · SQL · R · Python · Looker · Excel · Git
 
 ---
 
