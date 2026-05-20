@@ -67,8 +67,8 @@ Senior data and analytics leader with eight years of experience delivering scala
 
 ## Professional Development
 
-**Microsoft Power BI Data Analyst - Microsoft** - 2025
+**Microsoft Power BI Data Analyst** |  Microsoft |  2025
 
-**Basic Statistics, University of Amsterdam**  - 2025
+**Basic Statistics**                  |  University of Amsterdam |  2025
 
-**GitHub Foundations (Part 1 of 2) — Microsoft** - 2025
+**GitHub Foundations (Part 1 of 2)**  |  Microsoft  |  2025
