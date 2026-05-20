@@ -87,3 +87,9 @@ The non-technical profile (strategic leadership, executive influence, pipeline e
 **Gaps to address proactively:**
 - dbt: take the free dbt Fundamentals course before any interview; you can legitimately say you've completed it
 - Python: same — a 10-hour introductory course plus one small project gives you something to point to
+
+---
+
+## Message to Hiring Team
+
+> Wise's mission sits at the intersection of two things I've spent my career on: making financial systems work better for people, and understanding the friction that stops them from doing so. At the Home Office I worked directly with the fintech sector — including on the data-sharing and identity verification infrastructure that underpins services like cross-border transfers — so this isn't an abstract interest. I'm at a deliberate transition point from a government analytics career, and Wise's data-driven, SQL-first culture is exactly the environment I want to be working in. I'd welcome the conversation.
