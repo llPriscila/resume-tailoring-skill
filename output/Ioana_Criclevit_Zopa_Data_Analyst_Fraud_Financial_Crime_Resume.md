@@ -12,11 +12,11 @@ Data analyst with hands-on expertise in identity fraud and economic crime, built
 
 ## Key Skills
 
-**Fraud & Financial Crime:** Identity fraud risk • Economic crime data sharing • Cross-sector fraud intelligence • National Fraud Strategy • Fraud rules and controls analysis
+**Fraud & Financial Crime:** Fraud detection • Identity fraud risk • Transaction pattern analysis • Economic crime data sharing • Cross-sector fraud intelligence • Fraud rules and controls analysis
 
 **Data Analysis:** SQL (production ETL, joins, aggregations, deduplication) • SAS (expert) • R (ggplot2, plotly, R Markdown) • Excel (advanced)
 
-**Currently Building:** Python • Git • Looker
+**Technical Skills:** SAS • SQL • R • Python • Looker • Power BI • Excel • Git
 
 **Delivery & Communication:** Fast-paced analytical delivery • Pattern investigation and root cause analysis • Stakeholder briefings • Structured problem framing
 
@@ -28,7 +28,7 @@ Data analyst with hands-on expertise in identity fraud and economic crime, built
 **Home Office — London | Jan 2024 – Mar 2026**
 
 - Shaped the fraud component of the UK's new mandatory digital ID system, embedding fraud risk as a core design consideration and structuring complex analysis for public consultation
-- Led strategic review of a national identity fraud database, quantifying prevention value and translating findings into a decision-ready business case that secured £200k in funding
+- Led strategic review of a national identity fraud detection database, quantifying prevention impact and translating findings into a decision-ready business case that secured £200k in funding
 - Created and ran a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement, surfacing barriers to economic crime data sharing and informing government policy
 - Delivered the UK's first public consultation on economic crime data sharing, structuring ambiguous cross-government requirements into a defined analytical framework and evidence base
 - Influenced two commitments in the UK's National Fraud Strategy through targeted analytical recommendations
@@ -40,7 +40,7 @@ Data analyst with hands-on expertise in identity fraud and economic crime, built
 - Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale
 - Built spine data products by integrating multiple complex source datasets into unified analytical bases, enabling downstream analysis and automating previously manual reporting workflows
 - Resolved an eight-year reporting gap by structuring an ill-defined problem, reconciling conflicting data sources, and publishing the first reliable statistics on Universal Credit health applications
-- Established automated data quality frameworks and validation rules across multiple large-scale sources, materially reducing inconsistencies and improving reliability of analytical outputs
+- Established automated data quality frameworks, anomaly detection rules, and validation controls across multiple large-scale sources, materially reducing inconsistencies and improving reliability of analytical outputs
 - Translated ambiguous business requirements into defined metrics and automated reporting solutions, improving access to timely, decision-ready performance data
 - Led agile cross-functional delivery, managing priorities, risks, and timelines across concurrent analytical workstreams
 - Developed intuitive data visualisations in R and Excel, prioritising usability for operational decision-makers
