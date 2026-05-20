@@ -18,7 +18,7 @@ Senior data and analytics leader with eight years of experience delivering scala
 
 **Leadership & Influence:** Executive and director-level stakeholder management · Strategic recommendations and performance reporting · Analyst mentoring and capability development · Cross-sector collaboration (85+ organisations)
 
-**Technical Skills:** SAS · SQL · R · Python · dbt · Excel · Git
+**Technical Skills:** SAS · SQL · R · Python · Excel · Git
 
 ---
 
