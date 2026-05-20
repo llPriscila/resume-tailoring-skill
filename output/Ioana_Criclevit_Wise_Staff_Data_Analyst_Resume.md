@@ -27,10 +27,10 @@ Senior data and analytics leader with eight years of experience delivering scala
 ### Head of Data Sharing and Identity Fraud Policy
 **Home Office — London | Jan 2024 – Mar 2026**
 
-- Shaped national data strategy by synthesising evidence from 85+ organisations across banking, fintech, telecoms and law enforcement, translating complex cross-sector analysis into structured recommendations for executive decision-makers.
+- Shaped national data strategy by synthesising evidence from 85+ organisations across banking, fintech, telecoms and law enforcement, translating complex cross-sector insights into structured recommendations for executive decision-makers.
 - Secured £200k in funding by leading a strategic review of a national identity fraud database, translating complex analytical findings into a decision-ready business case for senior stakeholders.
-- Delivered the UK's first public consultation on economic crime data sharing, structuring ambiguous cross-government requirements into a defined analytical framework and actionable evidence base.
-- Influenced two commitments in the UK's National Fraud Strategy through targeted analytical recommendations, structured performance reporting, and sustained engagement with senior officials.
+- Delivered the UK's first public consultation on economic crime data sharing, structuring ambiguous cross-government requirements into an actionable evidence base.
+- Influenced two commitments in the UK's National Fraud Strategy through targeted data driven recommendations and sustained engagement with senior officials.
 
 ### Senior Data Analyst
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
@@ -68,7 +68,5 @@ Senior data and analytics leader with eight years of experience delivering scala
 ## Professional Development
 
 Microsoft Power BI Data Analyst (Coursera) • 2025
-
 Basic Statistics, University of Amsterdam (Coursera) • 2025
-
 GitHub Foundations (Part 1 of 2) — Microsoft • 2025
