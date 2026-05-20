@@ -36,7 +36,7 @@ Senior data and analytics leader with eight years of experience delivering scala
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
 
 - Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale.
-- Built spine data products by integrating multiple complex source datasets into unified analytical bases, enabling downstream analysis and automating previously manual reporting workflows.
+- Built spine data products by integrating multiple complex source datasets into unified analytical bases, enabling downstream analysis and automating manual reporting workflows.
 - Resolved an eight-year reporting gap by structuring an ill-defined problem, reconciling conflicting data sources, and publishing the first reliable statistics on Universal Credit health applications.
 - Established automated data quality frameworks and validation rules across multiple large-scale sources, materially reducing inconsistencies and improving reliability of analytical outputs.
 - Led agile cross-functional delivery, managing priorities, risks, and timelines across concurrent analytical workstreams to achieve consistent on-time delivery.
