@@ -1,0 +1,62 @@
+name: Generate CV PDFs
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'output/**_Resume.md'
+      - 'output/resume.css'
+      - '.github/workflows/generate_pdfs.yml'
+  workflow_dispatch:  # allows manual trigger from GitHub UI
+
+jobs:
+  build-pdfs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and wkhtmltopdf
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y pandoc wkhtmltopdf xvfb
+
+      - name: Convert CV markdown files to PDF
+        run: |
+          cd output
+          for md in *_Resume.md; do
+            [[ "$md" == *_Report* ]] && continue
+            echo "Converting: $md"
+            # wkhtmltopdf needs a display on Linux; xvfb-run provides a virtual one
+            xvfb-run pandoc "$md" \
+              --pdf-engine=wkhtmltopdf \
+              --css resume.css \
+              -V margin-top=1.4cm \
+              -V margin-bottom=1.4cm \
+              -V margin-left=1.8cm \
+              -V margin-right=1.8cm \
+              -V papersize=A4 \
+              -o "${md%.md}.pdf"
+            echo "  → ${md%.md}.pdf"
+          done
+
+      - name: Upload PDFs as workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdfs
+          path: output/*.pdf
+          retention-days: 30
+
+      - name: Commit PDFs back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/*.pdf
+          if git diff --cached --quiet; then
+            echo "No PDF changes to commit."
+          else
+            git commit -m "chore: regenerate CV PDFs [skip ci]"
+            git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
