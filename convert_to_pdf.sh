@@ -1,57 +1,19 @@
 #!/usr/bin/env bash
-# Convert all CV markdown files in output/ to PDF using Pandoc.
+# Convert all CV markdown files in output/ to PDF using reportlab.
 #
-# Requirements (install once on Mac):
-#   brew install pandoc
-#   pip3 install weasyprint
+# Requirements (install once):
+#   pip3 install reportlab
 #
 # Usage:
-#   ./convert_to_pdf.sh              # convert all CVs
-#   ./convert_to_pdf.sh Wise         # convert only files matching "Wise"
+#   ./convert_to_pdf.sh       # convert all CVs
 
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-OUTPUT_DIR="$SCRIPT_DIR/output"
-CSS="$OUTPUT_DIR/resume.css"
 
-if ! command -v pandoc &>/dev/null; then
-  echo "Error: pandoc not found. Install with: brew install pandoc"
+if ! python3 -c "import reportlab" &>/dev/null; then
+  echo "Error: reportlab not found. Install with: pip3 install reportlab"
   exit 1
 fi
 
-if ! python3 -c "import weasyprint" &>/dev/null; then
-  echo "Error: weasyprint not found. Install with: pip3 install weasyprint"
-  exit 1
-fi
-
-FILTER="${1:-}"
-CONVERTED=0
-SKIPPED=0
-
-for md in "$OUTPUT_DIR"/*_Resume.md; do
-  filename="$(basename "$md")"
-
-  # Skip report files
-  [[ "$filename" == *_Report* ]] && continue
-
-  # Apply optional name filter
-  if [[ -n "$FILTER" && "$filename" != *"$FILTER"* ]]; then
-    SKIPPED=$((SKIPPED + 1))
-    continue
-  fi
-
-  pdf="${md%.md}.pdf"
-
-  echo "Converting: $filename"
-  pandoc "$md" \
-    --pdf-engine=weasyprint \
-    --css "$CSS" \
-    -o "$pdf"
-
-  echo "  → $(basename "$pdf")"
-  CONVERTED=$((CONVERTED + 1))
-done
-
-echo ""
-echo "Done: $CONVERTED PDF(s) generated, $SKIPPED skipped."
+python3 "$SCRIPT_DIR/output/generate_pdfs.py"

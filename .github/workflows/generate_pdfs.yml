@@ -5,7 +5,7 @@ on:
     branches: [master]
     paths:
       - 'output/**_Resume.md'
-      - 'output/resume.css'
+      - 'output/generate_pdfs.py'
       - '.github/workflows/generate_pdfs.yml'
   workflow_dispatch:  # allows manual trigger from GitHub UI
 
@@ -17,24 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Pandoc and WeasyPrint
-        run: |
-          sudo apt-get update -q
-          sudo apt-get install -y pandoc python3-pip python3-venv libpango-1.0-0 libpangoft2-1.0-0
-          pip3 install weasyprint
+      - name: Install Python dependencies
+        run: pip3 install reportlab
 
-      - name: Convert CV markdown files to PDF
-        run: |
-          cd output
-          for md in *_Resume.md; do
-            [[ "$md" == *_Report* ]] && continue
-            echo "Converting: $md"
-            pandoc "$md" \
-              --pdf-engine=weasyprint \
-              --css resume.css \
-              -o "${md%.md}.pdf"
-            echo "  → ${md%.md}.pdf"
-          done
+      - name: Generate CV PDFs
+        run: python3 output/generate_pdfs.py
 
       - name: Upload PDFs as workflow artifacts
         uses: actions/upload-artifact@v4

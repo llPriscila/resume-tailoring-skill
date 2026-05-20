@@ -19,30 +19,30 @@ GRAY = colors.HexColor("#555555")
 LIGHT_GRAY = colors.HexColor("#888888")
 
 def make_styles():
-    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=20,
-                          leading=24, textColor=ACCENT, spaceAfter=2)
+    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=22,
+                          leading=26, textColor=ACCENT, spaceAfter=4)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
-                             leading=13, textColor=GRAY, spaceAfter=10, alignment=TA_LEFT)
+                             leading=13, textColor=GRAY, spaceAfter=14, alignment=TA_LEFT)
     section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=10.5,
-                             leading=14, textColor=ACCENT, spaceBefore=10, spaceAfter=3,
+                             leading=14, textColor=ACCENT, spaceBefore=18, spaceAfter=5,
                              borderPadding=(0, 0, 2, 0))
-    role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10,
-                                leading=13, textColor=ACCENT, spaceBefore=8, spaceAfter=0)
+    role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
+                                leading=14, textColor=ACCENT, spaceBefore=14, spaceAfter=1)
     role_meta = ParagraphStyle("role_meta", fontName="Helvetica", fontSize=9,
-                               leading=12, textColor=GRAY, spaceAfter=4)
+                               leading=13, textColor=GRAY, spaceAfter=7)
     bullet = ParagraphStyle("bullet", fontName="Helvetica", fontSize=9.5,
-                            leading=13.5, textColor=LINE_COLOR, leftIndent=12,
-                            firstLineIndent=-8, spaceAfter=2)
+                            leading=14.5, textColor=LINE_COLOR, leftIndent=12,
+                            firstLineIndent=-8, spaceAfter=5)
     body = ParagraphStyle("body", fontName="Helvetica", fontSize=9.5,
-                          leading=13.5, textColor=LINE_COLOR, spaceAfter=4)
+                          leading=14.5, textColor=LINE_COLOR, spaceAfter=6)
     skills_label = ParagraphStyle("skills_label", fontName="Helvetica-Bold", fontSize=9.5,
-                                  leading=13, textColor=ACCENT)
+                                  leading=14, textColor=ACCENT)
     skills_body = ParagraphStyle("skills_body", fontName="Helvetica", fontSize=9.5,
-                                 leading=13, textColor=LINE_COLOR, spaceAfter=5)
+                                 leading=14, textColor=LINE_COLOR, spaceAfter=7)
     summary = ParagraphStyle("summary", fontName="Helvetica", fontSize=9.5,
-                             leading=14, textColor=LINE_COLOR, spaceAfter=4)
+                             leading=15, textColor=LINE_COLOR, spaceAfter=6)
     currently = ParagraphStyle("currently", fontName="Helvetica-Oblique", fontSize=9,
-                               leading=13, textColor=GRAY, spaceAfter=5)
+                               leading=13, textColor=GRAY, spaceAfter=6)
     return dict(name=name, contact=contact, section=section, role_title=role_title,
                 role_meta=role_meta, bullet=bullet, body=body,
                 skills_label=skills_label, skills_body=skills_body,
@@ -102,7 +102,7 @@ def build_pdf(md_path, pdf_path):
         # H2 — section headers
         if line.startswith("## "):
             title = line[3:].strip().upper()
-            story.append(Spacer(1, 3))
+            story.append(Spacer(1, 6))
             story.append(Paragraph(title, S["section"]))
             story.append(hr())
             i += 1
@@ -150,7 +150,7 @@ def build_pdf(md_path, pdf_path):
             continue
 
         # Empty line
-        story.append(Spacer(1, 3))
+        story.append(Spacer(1, 5))
         i += 1
 
     doc.build(story)
