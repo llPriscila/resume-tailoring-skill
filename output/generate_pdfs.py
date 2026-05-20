@@ -156,13 +156,17 @@ def build_pdf(md_path, pdf_path):
     doc.build(story)
     print(f"Generated: {pdf_path}")
 
+def md_to_pdf(md_filename, base_dir=None):
+    """Convert a markdown CV to PDF. Naming convention: every word separated by _.
+    Pass the .md filename; PDF will be written alongside it with same stem + .pdf"""
+    base_dir = base_dir or os.path.dirname(os.path.abspath(__file__))
+    md_path = os.path.join(base_dir, md_filename)
+    pdf_path = os.path.join(base_dir, os.path.splitext(md_filename)[0] + ".pdf")
+    build_pdf(md_path, pdf_path)
+    return pdf_path
+
 if __name__ == "__main__":
     base = os.path.dirname(os.path.abspath(__file__))
-    build_pdf(
-        os.path.join(base, "Ioana_Criclevit_Wise_StaffDataAnalyst_Resume.md"),
-        os.path.join(base, "Ioana_Criclevit_Wise_StaffDataAnalyst_Resume.pdf")
-    )
-    build_pdf(
-        os.path.join(base, "Ioana_Criclevit_Ravio_InsightsAnalyst_Resume.md"),
-        os.path.join(base, "Ioana_Criclevit_Ravio_InsightsAnalyst_Resume.pdf")
-    )
+    # Naming convention: First_Last_Company_Role_Title_Resume.md (every word separated by _)
+    md_to_pdf("Ioana_Criclevit_Wise_Staff_Data_Analyst_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_Ravio_Insights_Analyst_Resume.md", base)
