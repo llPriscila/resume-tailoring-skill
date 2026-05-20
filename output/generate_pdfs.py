@@ -27,14 +27,16 @@ def make_styles():
                              leading=14, textColor=ACCENT, spaceBefore=8, spaceAfter=3,
                              borderPadding=(0, 0, 2, 0))
     role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
-                                leading=14, textColor=ACCENT, spaceBefore=14, spaceAfter=1)
+                                leading=14, textColor=ACCENT, spaceBefore=14, spaceAfter=1,
+                                keepWithNext=True)
     role_meta = ParagraphStyle("role_meta", fontName="Helvetica", fontSize=9,
-                               leading=13, textColor=GRAY, spaceAfter=7)
+                               leading=13, textColor=GRAY, spaceAfter=5,
+                               keepWithNext=True)
     bullet = ParagraphStyle("bullet", fontName="Helvetica", fontSize=9.5,
-                            leading=14.5, textColor=LINE_COLOR, leftIndent=12,
-                            firstLineIndent=-8, spaceAfter=5)
+                            leading=14, textColor=LINE_COLOR, leftIndent=12,
+                            firstLineIndent=-8, spaceAfter=4)
     body = ParagraphStyle("body", fontName="Helvetica", fontSize=9.5,
-                          leading=14.5, textColor=LINE_COLOR, spaceAfter=6)
+                          leading=14, textColor=LINE_COLOR, spaceAfter=5)
     skills_label = ParagraphStyle("skills_label", fontName="Helvetica-Bold", fontSize=9.5,
                                   leading=14, textColor=ACCENT)
     skills_body = ParagraphStyle("skills_body", fontName="Helvetica", fontSize=9.5,
