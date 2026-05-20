@@ -4,14 +4,14 @@ body {
   color: #1a1a2e;
   margin: 0;
   padding: 0;
-  line-height: 1.45;
+  line-height: 1.55;
 }
 
 h1 {
-  font-size: 20pt;
+  font-size: 22pt;
   font-weight: bold;
   color: #1a1a2e;
-  margin: 0 0 4px 0;
+  margin: 0 0 5px 0;
   padding: 0;
 }
 
@@ -20,42 +20,48 @@ h2 {
   font-weight: bold;
   color: #1a1a2e;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
   border-bottom: 0.5px solid #cccccc;
-  margin: 18px 0 5px 0;
-  padding-bottom: 3px;
+  margin: 24px 0 7px 0;
+  padding-bottom: 4px;
 }
 
 h3 {
-  font-size: 10pt;
+  font-size: 10.5pt;
   font-weight: bold;
   color: #1a1a2e;
-  margin: 12px 0 1px 0;
+  margin: 16px 0 1px 0;
 }
 
-/* Role meta line — the bold line after h3 */
-h3 + p > strong:only-child,
+/* Role meta line — company · location · dates */
+h3 + p {
+  color: #555555;
+  font-size: 9pt;
+  margin: 0 0 6px 0;
+  line-height: 1.4;
+}
+
 h3 + p strong {
   font-weight: normal;
   color: #555555;
-  font-size: 9pt;
 }
 
 p {
-  margin: 1px 0 5px 0;
+  margin: 0 0 6px 0;
   font-size: 9.5pt;
   color: #1a1a2e;
 }
 
 ul {
-  margin: 3px 0 5px 0;
-  padding-left: 18px;
+  margin: 4px 0 8px 0;
+  padding-left: 20px;
 }
 
 li {
   font-size: 9.5pt;
   color: #1a1a2e;
-  margin-bottom: 3px;
-  line-height: 1.45;
+  margin-bottom: 5px;
+  line-height: 1.5;
 }
 
 a {
@@ -80,7 +86,8 @@ em {
 h1 + p {
   font-size: 9pt;
   color: #555555;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+  line-height: 1.4;
 }
 
 @page {
