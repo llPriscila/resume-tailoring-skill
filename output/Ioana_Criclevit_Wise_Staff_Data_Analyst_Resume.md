@@ -27,9 +27,9 @@ Senior data and analytics leader with eight years of experience delivering scala
 ### Head of Data Sharing and Identity Fraud Policy
 **Home Office — London | Jan 2024 – Mar 2026**
 
-- Shaped national data strategy by synthesising evidence from 85+ organisations across banking, fintech, telecoms and law enforcement, translating complex cross-sector insights into structured recommendations for executive decision-makers.
+- Shaped national fraud data sharing policy strategy by synthesising evidence from 85+ organisations across banking, fintech, telecoms and law enforcement, translating complex cross-sector insights into structured recommendations for executive decision-makers.
 - Secured £200k in funding by leading a strategic review of a national identity fraud database, translating complex analytical findings into a decision-ready business case for senior stakeholders.
-- Delivered the UK's first public consultation on economic crime data sharing, structuring ambiguous cross-government requirements into an actionable evidence base.
+- Delivered the UK's first public consultation on economic crime data sharing.
 - Influenced two commitments in the UK's National Fraud Strategy through targeted data driven recommendations and sustained engagement with senior officials.
 
 ### Senior Data Analyst
@@ -40,12 +40,12 @@ Senior data and analytics leader with eight years of experience delivering scala
 - Resolved an eight-year reporting gap by structuring an ill-defined problem, reconciling conflicting data sources, and publishing the first reliable statistics on Universal Credit health applications.
 - Established automated data quality frameworks and validation rules across multiple large-scale sources, materially reducing inconsistencies and improving reliability of analytical outputs.
 - Led agile cross-functional delivery, managing priorities, risks, and timelines across concurrent analytical workstreams to achieve consistent on-time delivery.
-- Managed and coached junior analysts, setting objectives, reviewing outputs, and building team capability — improving both the quality and independence of analytical delivery.
+- Managed and coached junior analysts, setting objectives, reviewing outputs, and building team capability and improving both the quality and independence of analytical delivery.
 
 ### Data Analyst
 **Department for Work and Pensions (DWP) — London | Oct 2019 – Nov 2021**
 
-- Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day and significantly improving the accuracy and reliability of analytical outputs.
+- Automated Quality Assurance processes in SAS from scratch, reducing a week-long manual process to a single day and significantly improving the accuracy and reliability of analytical outputs.
 - Built intuitive data visualisations in R (ggplot2, plotly, R Markdown), translating complex statistical outputs into accessible reports for non-technical stakeholders.
 - Delivered concurrent data publication projects under tight deadlines, achieving 100% on-time delivery across a complex, interdependent workload.
 
@@ -67,6 +67,8 @@ Senior data and analytics leader with eight years of experience delivering scala
 
 ## Professional Development
 
-Microsoft Power BI Data Analyst (Coursera) • 2025
-Basic Statistics, University of Amsterdam (Coursera) • 2025
-GitHub Foundations (Part 1 of 2) — Microsoft • 2025
+**Microsoft Power BI Data Analyst - Microsoft** - 2025
+
+**Basic Statistics, University of Amsterdam**  - 2025
+
+**GitHub Foundations (Part 1 of 2) — Microsoft** - 2025
