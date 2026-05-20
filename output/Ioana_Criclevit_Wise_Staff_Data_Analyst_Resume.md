@@ -62,3 +62,13 @@ Senior data and analytics leader with eight years of experience delivering scala
 **MSc Social Statistics, Research Methods — Distinction** | University of Southampton
 
 **BSc Criminology — First Class Honours** | University of Southampton
+
+---
+
+## Professional Development
+
+Microsoft Power BI Data Analyst (Coursera) • 2025
+
+Basic Statistics, University of Amsterdam (Coursera) • 2025
+
+GitHub Foundations (Part 1 of 2) — GitHub • 2025
