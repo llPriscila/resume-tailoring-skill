@@ -52,10 +52,16 @@ def hr(width=None):
     return HRFlowable(width=width or "100%", thickness=0.5,
                       color=colors.HexColor("#cccccc"), spaceAfter=4, spaceBefore=2)
 
-def parse_md_inline(text):
-    """Convert markdown inline bold/italic/links to reportlab HTML."""
-    # links: [text](url) → just text (no hyperlinks needed in print CV)
-    text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+LINK_COLOR = colors.HexColor("#0563C1")
+
+def parse_md_inline(text, linkcolor="#0563C1"):
+    """Convert markdown inline bold/italic/links to reportlab XML."""
+    # links: [text](url) → clickable hyperlink
+    text = re.sub(
+        r'\[([^\]]+)\]\(([^\)]+)\)',
+        lambda m: f'<link href="{m.group(2)}" color="{linkcolor}"><u>{m.group(1)}</u></link>',
+        text
+    )
     # bold
     text = re.sub(r'\*\*([^*]+)\*\*', r'<b>\1</b>', text)
     # italic
