@@ -79,7 +79,7 @@ Microsoft Power BI Data Analyst (Coursera) • 2025
 
 Basic Statistics, University of Amsterdam (Coursera) • 2025
 
-GitHub Foundations (Part 1 of 2) — GitHub • 2025
+GitHub Foundations (Part 1 of 2) — Microsoft • 2025
 
 ---
 
