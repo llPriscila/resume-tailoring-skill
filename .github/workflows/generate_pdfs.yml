@@ -17,11 +17,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
       - name: Install Python dependencies
-        run: pip3 install reportlab
+        run: pip install reportlab
 
       - name: Generate CV PDFs
-        run: python3 output/generate_pdfs.py
+        run: python output/generate_pdfs.py
 
       - name: Upload PDFs as workflow artifacts
         uses: actions/upload-artifact@v4
@@ -40,5 +45,6 @@ jobs:
           else
             git commit -m "chore: regenerate CV PDFs [skip ci]"
             git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
