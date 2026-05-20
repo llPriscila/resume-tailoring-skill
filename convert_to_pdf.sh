@@ -3,7 +3,7 @@
 #
 # Requirements (install once on Mac):
 #   brew install pandoc
-#   brew install --cask wkhtmltopdf
+#   pip3 install weasyprint
 #
 # Usage:
 #   ./convert_to_pdf.sh              # convert all CVs
@@ -17,6 +17,11 @@ CSS="$OUTPUT_DIR/resume.css"
 
 if ! command -v pandoc &>/dev/null; then
   echo "Error: pandoc not found. Install with: brew install pandoc"
+  exit 1
+fi
+
+if ! python3 -c "import weasyprint" &>/dev/null; then
+  echo "Error: weasyprint not found. Install with: pip3 install weasyprint"
   exit 1
 fi
 
@@ -40,13 +45,8 @@ for md in "$OUTPUT_DIR"/*_Resume.md; do
 
   echo "Converting: $filename"
   pandoc "$md" \
-    --pdf-engine=wkhtmltopdf \
+    --pdf-engine=weasyprint \
     --css "$CSS" \
-    -V margin-top=1.4cm \
-    -V margin-bottom=1.4cm \
-    -V margin-left=1.8cm \
-    -V margin-right=1.8cm \
-    -V papersize=A4 \
     -o "$pdf"
 
   echo "  → $(basename "$pdf")"

@@ -17,10 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Pandoc and wkhtmltopdf
+      - name: Install Pandoc and WeasyPrint
         run: |
           sudo apt-get update -q
-          sudo apt-get install -y pandoc wkhtmltopdf xvfb
+          sudo apt-get install -y pandoc python3-pip python3-venv libpango-1.0-0 libpangoft2-1.0-0
+          pip3 install weasyprint
 
       - name: Convert CV markdown files to PDF
         run: |
@@ -28,15 +29,9 @@ jobs:
           for md in *_Resume.md; do
             [[ "$md" == *_Report* ]] && continue
             echo "Converting: $md"
-            # wkhtmltopdf needs a display on Linux; xvfb-run provides a virtual one
-            xvfb-run pandoc "$md" \
-              --pdf-engine=wkhtmltopdf \
+            pandoc "$md" \
+              --pdf-engine=weasyprint \
               --css resume.css \
-              -V margin-top=1.4cm \
-              -V margin-bottom=1.4cm \
-              -V margin-left=1.8cm \
-              -V margin-right=1.8cm \
-              -V papersize=A4 \
               -o "${md%.md}.pdf"
             echo "  → ${md%.md}.pdf"
           done
