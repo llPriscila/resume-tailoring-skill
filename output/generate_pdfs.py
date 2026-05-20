@@ -170,3 +170,7 @@ if __name__ == "__main__":
     # Naming convention: First_Last_Company_Role_Title_Resume.md (every word separated by _)
     md_to_pdf("Ioana_Criclevit_Wise_Staff_Data_Analyst_Resume.md", base)
     md_to_pdf("Ioana_Criclevit_Ravio_Insights_Analyst_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_FCA_Financial_Crime_Senior_Data_Analyst_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_Zopa_Data_Analyst_Fraud_Financial_Crime_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_Zopa_Senior_Analyst_Lending_Operations_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_Monzo_Senior_Data_Analyst_Financial_Health_Resume.md", base)
