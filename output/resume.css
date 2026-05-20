@@ -4,7 +4,7 @@ body {
   color: #1a1a2e;
   margin: 0;
   padding: 0;
-  line-height: 1.35;
+  line-height: 1.45;
 }
 
 h1 {
@@ -20,16 +20,16 @@ h2 {
   font-weight: bold;
   color: #1a1a2e;
   text-transform: uppercase;
-  border-bottom: 1px solid #cccccc;
-  margin: 14px 0 4px 0;
-  padding-bottom: 2px;
+  border-bottom: 0.5px solid #cccccc;
+  margin: 18px 0 5px 0;
+  padding-bottom: 3px;
 }
 
 h3 {
   font-size: 10pt;
   font-weight: bold;
   color: #1a1a2e;
-  margin: 10px 0 0 0;
+  margin: 12px 0 1px 0;
 }
 
 /* Role meta line — the bold line after h3 */
@@ -41,20 +41,21 @@ h3 + p strong {
 }
 
 p {
-  margin: 2px 0 4px 0;
+  margin: 1px 0 5px 0;
   font-size: 9.5pt;
   color: #1a1a2e;
 }
 
 ul {
-  margin: 2px 0 2px 0;
+  margin: 3px 0 5px 0;
   padding-left: 18px;
 }
 
 li {
   font-size: 9.5pt;
   color: #1a1a2e;
-  margin-bottom: 1px;
+  margin-bottom: 3px;
+  line-height: 1.45;
 }
 
 a {
@@ -77,9 +78,9 @@ em {
 
 /* Contact / summary line directly under h1 */
 h1 + p {
-  font-size: 9.5pt;
-  color: #1a1a2e;
-  margin-bottom: 0;
+  font-size: 9pt;
+  color: #555555;
+  margin-bottom: 10px;
 }
 
 @page {
