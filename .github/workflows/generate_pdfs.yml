@@ -12,6 +12,8 @@ on:
 jobs:
   build-pdfs:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -44,7 +46,7 @@ jobs:
             echo "No PDF changes to commit."
           else
             git commit -m "chore: regenerate CV PDFs [skip ci]"
-            git push
+            git push origin HEAD:master
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
