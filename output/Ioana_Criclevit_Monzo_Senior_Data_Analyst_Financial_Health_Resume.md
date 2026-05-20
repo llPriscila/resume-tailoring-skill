@@ -6,7 +6,7 @@ London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.l
 
 ## Professional Summary
 
-Senior data analyst with deep experience producing regulatory-grade analytical outputs, building trusted reporting infrastructure, and generating insights that shape policy outcomes for people in financial difficulty. At DWP, closed an eight-year measurement gap in Universal Credit health applications — producing the first reliable, publicly verified statistics on one of the UK's most vulnerable claimant groups. Strong technical foundation in SQL and SAS across large-scale production environments, with experience designing automated data quality controls, building governance frameworks, and partnering with senior stakeholders to turn ambiguous requirements into decision-ready data. Currently building dbt, BigQuery SQL, Looker, and Python to extend into modern analytics stacks.
+Senior data analyst with deep experience producing regulatory-grade analytical outputs, building trusted reporting infrastructure, and generating insights that shape policy outcomes for people in financial difficulty. At DWP, closed an eight-year measurement gap in Universal Credit health applications — producing the first reliable, publicly verified statistics on one of the UK's most vulnerable claimant groups. Strong technical foundation in SQL and SAS across large-scale production environments, with experience designing automated data quality controls, building data governance frameworks, and partnering with senior stakeholders to turn ambiguous requirements into decision-ready data. Currently building dbt, BigQuery SQL, Looker, and Python to extend into modern analytics stacks.
 
 ---
 
@@ -14,9 +14,9 @@ Senior data analyst with deep experience producing regulatory-grade analytical o
 
 **Data & Reporting:** SQL (production ETL, joins, aggregations, deduplication) • SAS (expert) • R (ggplot2, plotly, R Markdown) • Excel (advanced)
 
-**Currently Building:** dbt • BigQuery SQL • Looker • Python • Git
+**Technical Skills:** SAS • SQL • R • dbt • BigQuery • Python • Looker • Excel • Git
 
-**Regulatory & Governance:** Regulatory-grade statistical publication • Data quality frameworks • Automated validation controls • Official Statistics sign-off processes
+**Regulatory & Governance:** Data governance • Regulatory-grade statistical publication • Data quality frameworks • Automated validation controls • Official Statistics sign-off processes
 
 **Stakeholder Partnership:** Product and policy stakeholder engagement • Requirements translation • Cross-functional analytical delivery • Junior analyst coaching and development
 
@@ -27,10 +27,10 @@ Senior data analyst with deep experience producing regulatory-grade analytical o
 ### Senior Data Analyst
 **DWP — London | Nov 2021 – Jan 2024**
 
-- Resolved an eight-year reporting gap on Universal Credit health applications — structuring an ill-defined problem, reconciling conflicting data sources, and publishing the first verified statistics on a population of financially vulnerable claimants, subject to UK Statistics Authority scrutiny and director-level governance panels
+- Resolved an eight-year reporting gap on Universal Credit health applications — publishing the first verified statistics on financial health outcomes for a population of financially vulnerable claimants, subject to UK Statistics Authority scrutiny and director-level governance panels
 - Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale
 - Built spine data products by integrating multiple complex source datasets into unified analytical bases, enabling downstream analysis and automating previously manual reporting workflows
-- Established automated data quality frameworks and validation rules across multiple large-scale sources, materially reducing inconsistencies and improving reliability of analytical outputs — directly analogous to building controls ensuring business processes run as intended
+- Built data governance frameworks and automated validation controls across multiple large-scale sources, materially reducing inconsistencies and improving reliability of analytical outputs — directly analogous to ensuring trusted data underpins business operations
 - Translated ambiguous business requirements into defined metrics and automated reporting solutions, improving access to timely, decision-ready performance data aligned with operational goals
 - Led agile cross-functional delivery, managing priorities, risks, and timelines across concurrent analytical workstreams
 - Developed intuitive data visualisations in R and Excel, prioritising usability for operational and policy decision-makers

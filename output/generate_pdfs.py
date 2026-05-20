@@ -134,7 +134,7 @@ def build_pdf(md_path, pdf_path):
         # Skills line with bold label: **Label:** content
         m = re.match(r'^\*\*([^*]+)\*\*[:\s]+(.*)', line)
         if m:
-            label = m.group(1).strip()
+            label = m.group(1).strip().rstrip(':')
             rest = parse_md_inline(m.group(2).strip())
             if label.lower().startswith("currently"):
                 story.append(Paragraph(f"<b>{label}:</b> <i>{rest}</i>", S["currently"]))

@@ -12,13 +12,15 @@ Senior data and policy professional with deep expertise in financial crime, iden
 
 ## Key Skills
 
-**Financial Crime & Fraud Policy:** Identity fraud prevention • Economic crime data sharing • National Fraud Strategy • Cross-sector intelligence frameworks • Public consultation and evidence base development
+**Financial Crime & Fraud Policy:** Identity fraud prevention • Economic crime data sharing • Anti-money laundering (AML) • National Fraud Strategy • Cross-sector intelligence frameworks • Public consultation and evidence base development
 
 **Data Analysis & Engineering:** SAS (expert) • SQL (production ETL, joins, aggregations, deduplication) • R (ggplot2, plotly, R Markdown) • Excel (advanced)
 
-**Data Visualisation & Reporting:** Tableau (course-trained) • Power BI (course-trained) • R Markdown dashboards • Executive briefings and policy documentation
+**Data Visualisation & Reporting:** Tableau • Power BI • R Markdown dashboards • Executive briefings and policy documentation
 
 **Stakeholder Engagement:** Cross-government collaboration • Financial services and fintech sector engagement • Regulatory and compliance stakeholder management • Senior official briefings
+
+**Technical Skills:** SAS • SQL • R • Python • Tableau • Power BI • Excel • Git
 
 ---
 
@@ -29,7 +31,7 @@ Senior data and policy professional with deep expertise in financial crime, iden
 
 - Shaped the fraud component of the UK's new mandatory digital ID system, embedding fraud risk as a core design consideration and structuring complex analysis for public consultation
 - Led strategic review of a national identity fraud database, quantifying prevention value and securing £200k in funding by translating complex data into a decision-ready business case
-- Created and ran a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement, surfacing barriers to economic crime data sharing and informing government policy
+- Created and ran a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement, surfacing barriers to anti-money laundering intelligence sharing and economic crime data sharing, directly informing government policy
 - Delivered the UK's first public consultation on economic crime data sharing, structuring ambiguous cross-government requirements into a defined analytical framework and evidence base
 - Influenced two commitments in the UK's National Fraud Strategy through targeted analytical recommendations and structured performance reporting to senior officials
 - Authored executive briefings and policy documents translating complex analysis into actionable recommendations for senior decision-makers

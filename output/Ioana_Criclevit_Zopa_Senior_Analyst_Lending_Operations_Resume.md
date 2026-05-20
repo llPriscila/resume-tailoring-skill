@@ -6,17 +6,17 @@ London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.l
 
 ## Professional Summary
 
-Senior data analyst with a strong track record in operational MI transformation, reporting framework design, and performance analytics at scale. At DWP, led the overhaul of fragmented, unreliable reporting infrastructure across large-scale operational programmes — closing measurement gaps, establishing governed metric structures, and delivering decision-ready performance data to operational and policy stakeholders. Experienced in partnering closely with operational leadership to translate ambiguous business needs into scalable, well-structured analytical solutions. Brings both the technical depth to build robust reporting systems and the stakeholder credibility to drive adoption and sustained improvement.
+Senior data analyst with a strong track record in operational MI transformation, reporting framework design, and performance analytics at scale. At DWP, led the overhaul of fragmented, unreliable reporting infrastructure across large-scale operational programmes — closing measurement gaps, establishing governed metric structures, and delivering decision-ready performance data to operational and policy stakeholders. Experienced in partnering closely with operational leadership to translate ambiguous business needs into scalable, well-structured analytical solutions. Brings both the technical depth to build robust MI reporting systems and the stakeholder credibility to drive adoption — experience directly applicable to lending operations analytics.
 
 ---
 
 ## Key Skills
 
-**Operational Analytics & MI:** Performance reporting frameworks • Metric design and governance • Reporting gap identification • Automated MI pipelines • Data quality and validation
+**Operational Analytics & MI:** Operational performance analytics • MI reporting frameworks • Metric design and governance • Reporting gap resolution • Automated MI pipelines • Data quality and validation
 
 **Data Engineering:** SAS (expert) • SQL (production ETL, joins, aggregations, deduplication) • R (ggplot2, plotly, R Markdown) • Excel (advanced)
 
-**Currently Building:** Python • Git • Looker
+**Technical Skills:** SAS • SQL • R • Python • Looker • Power BI • Excel • Git
 
 **Stakeholder Partnership:** Operational and senior leadership engagement • Requirements translation • Cross-functional delivery • Junior analyst management and coaching
 
@@ -29,9 +29,9 @@ Senior data analyst with a strong track record in operational MI transformation,
 
 - Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale
 - Built spine data products by integrating multiple complex source datasets into unified analytical bases, enabling downstream analysis and automating previously manual reporting workflows
-- Resolved an eight-year reporting gap by structuring an ill-defined problem, reconciling conflicting data sources, and publishing the first reliable statistics on Universal Credit health applications — demonstrating the ability to assess broken reporting frameworks and drive step-change improvements
+- Resolved an eight-year MI reporting gap by structuring an ill-defined problem, reconciling conflicting data sources, and publishing the first reliable statistics on Universal Credit health applications — demonstrating the ability to assess broken MI frameworks and deliver step-change improvements
 - Established automated data quality frameworks and validation rules across multiple large-scale sources, materially reducing inconsistencies and improving reliability of analytical outputs
-- Translated ambiguous business requirements into defined metrics and automated reporting solutions, improving access to timely, decision-ready performance data aligned with operational goals
+- Translated ambiguous operational requirements into governed MI reporting frameworks and automated solutions, improving access to timely, decision-ready performance data aligned with operational goals
 - Led agile cross-functional delivery, managing priorities, risks, and timelines across concurrent analytical workstreams
 - Developed intuitive data visualisations in R and Excel, prioritising usability for operational and policy decision-makers
 - Managed and coached junior analysts, setting objectives, reviewing outputs, and building team capability
