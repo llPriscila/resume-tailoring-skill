@@ -14,13 +14,13 @@ Data analyst with eight years of experience building automated analytical produc
 
 **Technical:** SQL · SAS · R (ggplot2, plotly, R Markdown) · Excel · ETL pipeline design · Large-scale data processing (800M+ records) · Automated QA and data quality frameworks · Code versioning · Reproducible analytics
 
-**Visualisation & Reporting:** Interactive visualisations and reports in R · Looker · Reports tailored for technical and non-technical audiences
+**Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for technical and non-technical audiences
 
 **Analysis:** Statistical analysis · Problem structuring · Translating ambiguous requirements into data-driven solutions · Multi-source data consolidation and integration
 
 **Delivery & Collaboration:** Cross-functional agile delivery · Data product lifecycle ownership · Stakeholder engagement and briefing · Coaching and mentoring analysts
 
-**Technical Skills:** SAS · SQL · R · Python · Looker · Excel · Git
+**Technical Skills:** SAS · SQL · R · Python · Power BI · Excel · Git
 
 ---
 
@@ -72,6 +72,8 @@ Data analyst with eight years of experience building automated analytical produc
 Microsoft Power BI Data Analyst, Microsoft (Coursera) — 2025
 
 Basic Statistics, University of Amsterdam (Coursera) — 2025
+
+GitHub Foundations (Part 1 of 2) — GitHub — 2025
 
 ---
 
