@@ -14,7 +14,7 @@ Senior data analyst with deep experience producing regulatory-grade analytical o
 
 **Data & Reporting:** SQL (production ETL, joins, aggregations, deduplication) • SAS (expert) • R (ggplot2, plotly, R Markdown) • Excel (advanced)
 
-**Technical Skills:** SAS • SQL • R • dbt • BigQuery • Python • Looker • Excel • Git
+**Technical Skills:** SAS • SQL • R • BigQuery • Python • Looker • Excel • Git
 
 **Regulatory & Governance:** Data governance • Regulatory-grade statistical publication • Data quality frameworks • Automated validation controls • Official Statistics sign-off processes
 
