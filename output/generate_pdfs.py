@@ -24,7 +24,7 @@ def make_styles():
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
                              leading=13, textColor=GRAY, spaceAfter=14, alignment=TA_LEFT)
     section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=10.5,
-                             leading=14, textColor=ACCENT, spaceBefore=18, spaceAfter=5,
+                             leading=14, textColor=ACCENT, spaceBefore=12, spaceAfter=4,
                              borderPadding=(0, 0, 2, 0))
     role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
                                 leading=14, textColor=ACCENT, spaceBefore=14, spaceAfter=1)
@@ -102,7 +102,7 @@ def build_pdf(md_path, pdf_path):
         # H2 — section headers
         if line.startswith("## "):
             title = line[3:].strip().upper()
-            story.append(Spacer(1, 6))
+            story.append(Spacer(1, 3))
             story.append(Paragraph(title, S["section"]))
             story.append(hr())
             i += 1
