@@ -20,23 +20,23 @@ LINK    = colors.HexColor("#0366d6")
 BORDER  = colors.HexColor("#d0d7de")
 
 def make_styles():
-    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=22,
-                          leading=26, textColor=TEXT, spaceAfter=1, alignment=TA_CENTER)
+    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=26,
+                          leading=30, textColor=TEXT, spaceAfter=2, alignment=TA_CENTER)
     subtitle = ParagraphStyle("subtitle", fontName="Helvetica", fontSize=15,
-                              leading=18, textColor=MUTED, spaceAfter=1, alignment=TA_CENTER)
+                              leading=18, textColor=MUTED, spaceAfter=2, alignment=TA_CENTER)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
-                             leading=13, textColor=MUTED, spaceAfter=8, alignment=TA_CENTER)
-    section = ParagraphStyle("section", fontName="Helvetica", fontSize=10,
-                             leading=14, textColor=MUTED, spaceBefore=8, spaceAfter=3)
+                             leading=13, textColor=MUTED, spaceAfter=14, alignment=TA_CENTER)
+    section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=13,
+                             leading=17, textColor=TEXT, spaceBefore=18, spaceAfter=4)
     role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
-                                leading=15, textColor=TEXT, spaceBefore=10, spaceAfter=1,
+                                leading=15, textColor=TEXT, spaceBefore=12, spaceAfter=1,
                                 keepWithNext=True)
     role_meta = ParagraphStyle("role_meta", fontName="Helvetica", fontSize=9,
-                               leading=13, textColor=MUTED, spaceAfter=4,
+                               leading=13, textColor=MUTED, spaceAfter=5,
                                keepWithNext=True)
     bullet = ParagraphStyle("bullet", fontName="Helvetica", fontSize=9.5,
-                            leading=14.5, textColor=TEXT, leftIndent=12,
-                            firstLineIndent=-8, spaceAfter=3)
+                            leading=15, textColor=TEXT, leftIndent=14,
+                            firstLineIndent=-10, spaceAfter=5)
     body = ParagraphStyle("body", fontName="Helvetica", fontSize=9.5,
                           leading=14.5, textColor=TEXT, spaceAfter=4)
     skills_label = ParagraphStyle("skills_label", fontName="Helvetica-Bold", fontSize=9.5,
