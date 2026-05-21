@@ -70,6 +70,13 @@ def parse_md_inline(text, linkcolor="#0366d6"):
     text = re.sub(r'\*([^*]+)\*', r'<i>\1</i>', text)
     # em dash
     text = text.replace('—', '–')
+    # encode non-ASCII characters as XML entities in text nodes only (not inside tags)
+    parts = re.split(r'(<[^>]+>)', text)
+    text = ''.join(
+        part if part.startswith('<')
+        else part.encode('ascii', 'xmlcharrefreplace').decode('ascii')
+        for part in parts
+    )
     return text
 
 def build_pdf(md_path, pdf_path):
