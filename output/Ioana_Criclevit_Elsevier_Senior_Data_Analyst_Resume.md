@@ -1,7 +1,7 @@
 <div align="center">
 
 # Ioana Criclevit
-<font color="#57606a"><strong>Senior Data Analyst</strong></font><br>
+<font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font><br>
 London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.linkedin.com/in/ioana-priscila-c-60880995)
 
 </div>
@@ -38,7 +38,7 @@ Senior data analyst with eight years of experience designing and delivering intu
 - Delivered the UK's first public consultation on economic crime data sharing, leading analytics initiatives end-to-end from discovery through to publication.
 - Secured £200k in funding by translating a strategic analytical review into a clear, evidence-led business case for senior decision-makers.
 
-### <font color="#57606a"><strong>Senior Data Analyst</strong></font>
+### <font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font>
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
 
 - Designed and delivered intuitive operational performance dashboards and reports in R (ggplot2, plotly) and Power BI, translating complex datasets into clear narratives for operational and policy stakeholders.

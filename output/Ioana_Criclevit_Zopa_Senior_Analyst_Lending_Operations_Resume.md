@@ -1,7 +1,7 @@
 <div align="center">
 
 # Ioana Criclevit
-<font color="#57606a"><strong>Senior Data Analyst</strong></font><br>
+<font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font><br>
 London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.linkedin.com/in/ioana-priscila-c-60880995)
 
 </div>
@@ -28,7 +28,7 @@ Senior data analyst with a strong track record in operational MI transformation,
 
 ## Professional Experience
 
-### <font color="#57606a"><strong>Senior Data Analyst</strong></font>
+### <font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font>
 **DWP — London | Nov 2021 – Jan 2024**
 
 - Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale

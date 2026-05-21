@@ -1,7 +1,7 @@
 <div align="center">
 
 # Ioana Criclevit
-<font color="#57606a"><strong>Senior Data Analyst</strong></font><br>
+<font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font><br>
 London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.linkedin.com/in/ioana-priscila-c-60880995)
 
 </div>
@@ -28,7 +28,7 @@ Senior data analyst with deep experience producing regulatory-grade analytical o
 
 ## Professional Experience
 
-### <font color="#57606a"><strong>Senior Data Analyst</strong></font>
+### <font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font>
 **DWP — London | Nov 2021 – Jan 2024**
 
 - Resolved an eight-year reporting gap on Universal Credit health applications — publishing the first verified statistics on financial health outcomes for a population of financially vulnerable claimants, subject to UK Statistics Authority scrutiny and director-level governance panels
