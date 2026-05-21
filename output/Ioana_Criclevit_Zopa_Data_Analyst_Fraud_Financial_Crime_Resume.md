@@ -2,7 +2,7 @@
 
 # Ioana Criclevit
 
-Senior Data Analyst
+<font color="#57606a"><strong>Senior Data Analyst</strong></font>
 
 London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.linkedin.com/in/ioana-priscila-c-60880995)
 
@@ -40,7 +40,7 @@ Data analyst with hands-on expertise in identity fraud and economic crime, built
 - Influenced two commitments in the UK's National Fraud Strategy through targeted analytical recommendations
 - Authored executive briefings translating complex fraud analysis into actionable recommendations for senior decision-makers
 
-### Senior Data Analyst
+### <font color="#57606a"><strong>Senior Data Analyst</strong></font>
 **DWP — London | Nov 2021 – Jan 2024**
 
 - Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale
