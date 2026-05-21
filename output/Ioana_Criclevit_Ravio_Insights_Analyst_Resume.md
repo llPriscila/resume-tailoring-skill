@@ -12,13 +12,13 @@ Data analyst with eight years of experience building automated analytical produc
 
 ## Key Skills
 
-**Technical:** SQL · SAS · R (ggplot2, plotly, R Markdown) · Excel · Git · AWS · ETL pipeline design · Large-scale data processing (800M+ records) · Automated Quality Assurance and data quality frameworks · Code versioning · Reproducible analytics · GenAI-assisted workflow optimisation
+**Technical:** SQL · SAS · R (ggplot2, plotly, R Markdown) · Excel · Git · AWS · ETL pipeline design · Large-scale data processing (800M+ records) · Automated Quality Assurance and data quality frameworks · Code versioning · Reproducible analytics · GenAI-assisted workflow optimisation.
 
-**Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for technical and non-technical audiences
+**Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for technical and non-technical audiences.
 
-**Analysis:** Statistical analysis · Problem structuring · Translating ambiguous requirements into data-driven solutions · Multi-source data consolidation and integration
+**Analysis:** Statistical analysis · Problem structuring · Translating ambiguous requirements into data-driven solutions · Multi-source data consolidation and integration.
 
-**Delivery & Collaboration:** Cross-functional agile delivery · Data product lifecycle ownership · Stakeholder engagement and briefing · Coaching and mentoring junior analysts
+**Delivery & Collaboration:** Cross-functional agile delivery · Data product lifecycle ownership · Stakeholder engagement and briefing · Coaching and mentoring junior analysts.
 
 
 ---
