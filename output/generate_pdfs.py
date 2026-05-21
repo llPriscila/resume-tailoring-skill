@@ -26,8 +26,8 @@ def make_styles():
                               leading=16, textColor=MUTED, spaceAfter=3, alignment=TA_CENTER)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
                              leading=14, textColor=MUTED, spaceAfter=10, alignment=TA_CENTER)
-    section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=12,
-                             leading=16, textColor=TEXT, spaceBefore=8, spaceAfter=3)
+    section = ParagraphStyle("section", fontName="Helvetica", fontSize=10,
+                             leading=14, textColor=MUTED, spaceBefore=8, spaceAfter=3)
     role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
                                 leading=15, textColor=TEXT, spaceBefore=10, spaceAfter=1,
                                 keepWithNext=True)
