@@ -49,6 +49,7 @@ Senior data and policy professional with deep expertise in financial crime, iden
 - Led agile cross-functional delivery, managing priorities, risks, and timelines across concurrent analytical workstreams
 - Developed intuitive data visualisations in R and Excel, prioritising usability for operational and policy decision-makers
 - Managed and coached junior analysts, setting objectives, reviewing outputs, and building team capability
+- Produced clear documentation of analytical definitions, methodologies, assumptions, and decision logic to support reproducibility, auditability, and consistent interpretation of outputs
 
 ### Data Analyst
 **DWP — London | Oct 2019 – Nov 2021**

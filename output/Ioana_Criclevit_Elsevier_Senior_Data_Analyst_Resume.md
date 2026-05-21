@@ -45,6 +45,7 @@ Senior data analyst with eight years of experience designing and delivering intu
 - Performed data profiling, cleansing, and preparation across six large-scale data sources, establishing automated QA frameworks and validation rules that materially improved analytical reliability.
 - Resolved an eight-year operational reporting gap by structuring an ill-defined problem, reconciling conflicting data sources, and publishing reliable statistics.
 - Coached and advised junior analysts on data visualisation best practices and output standards, building team capability and improving insight quality.
+- Produced clear documentation of analytical definitions, methodologies, assumptions, and decision logic to support reproducibility, auditability, and consistent interpretation of outputs.
 
 ### Data Analyst
 **Department for Work and Pensions (DWP) — London | Oct 2019 – Nov 2021**
