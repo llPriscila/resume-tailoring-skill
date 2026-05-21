@@ -50,6 +50,7 @@ Senior data and analytics leader with eight years of experience delivering scala
 - Automated Quality Assurance processes in SAS from scratch, reducing a week-long manual process to a single day and significantly improving the accuracy and reliability of analytical outputs.
 - Built intuitive data visualisations in R (ggplot2, plotly, R Markdown), translating complex statistical outputs into accessible reports for non-technical stakeholders.
 - Delivered concurrent data publication projects under tight deadlines, achieving 100% on-time delivery across a complex, interdependent workload.
+- Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets for statistical publication.
 
 ### Data Analyst
 **Department for Levelling Up, Housing & Communities — London | Apr 2018 – Oct 2019**

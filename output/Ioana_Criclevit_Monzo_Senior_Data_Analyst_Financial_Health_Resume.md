@@ -53,6 +53,7 @@ Senior data analyst with deep experience producing regulatory-grade analytical o
 - Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day
 - Built intuitive data visualisations in R (ggplot2, plotly, R Markdown) for non-technical stakeholders
 - Delivered concurrent data publication projects under tight deadlines, achieving 100% on-time delivery
+- Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets for statistical publication.
 - Led a team of 4, managed and coached junior analysts
 
 ### Data Analyst

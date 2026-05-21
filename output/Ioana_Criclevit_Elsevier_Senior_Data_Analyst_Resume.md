@@ -53,6 +53,7 @@ Senior data analyst with eight years of experience designing and delivering intu
 - Built interactive data visualisations in R (ggplot2, plotly, R Markdown), translating complex statistical outputs into accessible, user-centric reports for non-technical audiences.
 - Automated data profiling and QA processes in SAS from scratch, reducing a week-long manual process to a single day.
 - Delivered concurrent analytical publication projects under tight deadlines, achieving 100% on-time delivery.
+- Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets for statistical publication.
 
 ### Data Analyst
 **Department for Levelling Up, Housing & Communities — London | Apr 2018 – Oct 2019**
