@@ -21,7 +21,9 @@ BORDER  = colors.HexColor("#d0d7de")
 
 def make_styles():
     name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=22,
-                          leading=28, textColor=TEXT, spaceAfter=3)
+                          leading=28, textColor=TEXT, spaceAfter=2)
+    subtitle = ParagraphStyle("subtitle", fontName="Helvetica", fontSize=12,
+                              leading=16, textColor=MUTED, spaceAfter=3)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
                              leading=14, textColor=MUTED, spaceAfter=10)
     section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=12,
@@ -45,7 +47,7 @@ def make_styles():
                              leading=14.5, textColor=TEXT, spaceAfter=4)
     currently = ParagraphStyle("currently", fontName="Helvetica-Oblique", fontSize=9,
                                leading=13, textColor=MUTED, spaceAfter=5)
-    return dict(name=name, contact=contact, section=section, role_title=role_title,
+    return dict(name=name, subtitle=subtitle, contact=contact, section=section, role_title=role_title,
                 role_meta=role_meta, bullet=bullet, body=body,
                 skills_label=skills_label, skills_body=skills_body,
                 summary=summary, currently=currently)
@@ -84,6 +86,7 @@ def build_pdf(md_path, pdf_path):
     story = []
     i = 0
     n = len(lines)
+    after_h1 = False
 
     while i < n:
         line = lines[i]
@@ -96,6 +99,18 @@ def build_pdf(md_path, pdf_path):
         # H1 — name
         if line.startswith("# ") and not line.startswith("## "):
             story.append(Paragraph(line[2:].strip(), S["name"]))
+            after_h1 = True
+            i += 1
+            continue
+
+        # Subtitle — first non-empty line after H1 that isn't a heading or bullet
+        if after_h1 and line.strip() and not line.startswith("#") and not line.startswith("-"):
+            story.append(Paragraph(line.strip(), S["subtitle"]))
+            after_h1 = False
+            i += 1
+            continue
+
+        if after_h1 and not line.strip():
             i += 1
             continue
 
