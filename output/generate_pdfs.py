@@ -12,7 +12,7 @@ import re
 import os
 
 PAGE_W, PAGE_H = A4
-MARGIN = 18 * mm
+MARGIN = 15 * mm
 # GitHub markdown colours
 TEXT    = colors.HexColor("#24292e")
 MUTED   = colors.HexColor("#57606a")
@@ -25,28 +25,28 @@ def make_styles():
     subtitle = ParagraphStyle("subtitle", fontName="Helvetica-Bold", fontSize=12,
                               leading=15, textColor=MUTED, spaceAfter=3)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
-                             leading=13, textColor=MUTED, spaceAfter=4)
+                             leading=12, textColor=MUTED, spaceAfter=3)
     section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=13,
-                             leading=17, textColor=TEXT, spaceBefore=7, spaceAfter=4)
+                             leading=16, textColor=TEXT, spaceBefore=5, spaceAfter=2)
     role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
-                                leading=15, textColor=TEXT, spaceBefore=12, spaceAfter=1,
+                                leading=14, textColor=TEXT, spaceBefore=8, spaceAfter=1,
                                 keepWithNext=True)
     role_meta = ParagraphStyle("role_meta", fontName="Helvetica", fontSize=9,
-                               leading=13, textColor=MUTED, spaceAfter=5,
+                               leading=12, textColor=MUTED, spaceAfter=3,
                                keepWithNext=True)
     bullet = ParagraphStyle("bullet", fontName="Helvetica", fontSize=9.5,
-                            leading=15, textColor=TEXT, leftIndent=14,
-                            firstLineIndent=-10, spaceAfter=5)
+                            leading=13, textColor=TEXT, leftIndent=14,
+                            firstLineIndent=-10, spaceAfter=3)
     body = ParagraphStyle("body", fontName="Helvetica", fontSize=9.5,
-                          leading=14.5, textColor=TEXT, spaceAfter=4)
+                          leading=13, textColor=TEXT, spaceAfter=3)
     skills_label = ParagraphStyle("skills_label", fontName="Helvetica-Bold", fontSize=9.5,
-                                  leading=14, textColor=TEXT)
+                                  leading=13, textColor=TEXT)
     skills_body = ParagraphStyle("skills_body", fontName="Helvetica", fontSize=9.5,
-                                 leading=14, textColor=TEXT, spaceAfter=5)
+                                 leading=13, textColor=TEXT, spaceAfter=3)
     summary = ParagraphStyle("summary", fontName="Helvetica", fontSize=9.5,
-                             leading=14.5, textColor=TEXT, spaceAfter=4)
+                             leading=13, textColor=TEXT, spaceAfter=3)
     currently = ParagraphStyle("currently", fontName="Helvetica-Oblique", fontSize=9,
-                               leading=13, textColor=MUTED, spaceAfter=5)
+                               leading=12, textColor=MUTED, spaceAfter=3)
     return dict(name=name, subtitle=subtitle, contact=contact, section=section, role_title=role_title,
                 role_meta=role_meta, bullet=bullet, body=body,
                 skills_label=skills_label, skills_body=skills_body,
@@ -54,7 +54,7 @@ def make_styles():
 
 def hr(width=None):
     return HRFlowable(width=width or "100%", thickness=0.5,
-                      color=BORDER, spaceAfter=4, spaceBefore=2)
+                      color=BORDER, spaceAfter=3, spaceBefore=1)
 
 def parse_md_inline(text, linkcolor="#0366d6"):
     """Convert markdown inline bold/italic/links to reportlab XML."""
@@ -87,7 +87,7 @@ def build_pdf(md_path, pdf_path):
     doc = SimpleDocTemplate(
         pdf_path, pagesize=A4,
         leftMargin=MARGIN, rightMargin=MARGIN,
-        topMargin=14*mm, bottomMargin=14*mm
+        topMargin=12*mm, bottomMargin=12*mm
     )
 
     story = []
@@ -191,7 +191,7 @@ def build_pdf(md_path, pdf_path):
             continue
 
         # Empty line
-        story.append(Spacer(1, 5))
+        story.append(Spacer(1, 3))
         i += 1
 
     doc.build(story)
