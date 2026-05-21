@@ -1,9 +1,7 @@
 <div align="center">
 
 # Ioana Criclevit
-
 <font color="#57606a"><strong>Senior Data Analyst</strong></font>
-
 London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.linkedin.com/in/ioana-priscila-c-60880995)
 
 </div>
