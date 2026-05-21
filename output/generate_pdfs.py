@@ -20,10 +20,10 @@ LINK    = colors.HexColor("#0366d6")
 BORDER  = colors.HexColor("#d0d7de")
 
 def make_styles():
-    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=26,
-                          leading=30, textColor=TEXT, spaceAfter=2, alignment=TA_CENTER)
-    subtitle = ParagraphStyle("subtitle", fontName="Helvetica", fontSize=15,
-                              leading=18, textColor=MUTED, spaceAfter=2, alignment=TA_CENTER)
+    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=22,
+                          leading=26, textColor=TEXT, spaceAfter=1, alignment=TA_CENTER)
+    subtitle = ParagraphStyle("subtitle", fontName="Helvetica", fontSize=14,
+                              leading=17, textColor=MUTED, spaceAfter=2, alignment=TA_CENTER)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
                              leading=13, textColor=MUTED, spaceAfter=14, alignment=TA_CENTER)
     section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=13,
