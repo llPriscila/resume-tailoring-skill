@@ -22,8 +22,8 @@ BORDER  = colors.HexColor("#d0d7de")
 def make_styles():
     name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=22,
                           leading=26, textColor=TEXT, spaceAfter=1, alignment=TA_CENTER)
-    subtitle = ParagraphStyle("subtitle", fontName="Helvetica", fontSize=12,
-                              leading=14, textColor=MUTED, spaceAfter=1, alignment=TA_CENTER)
+    subtitle = ParagraphStyle("subtitle", fontName="Helvetica", fontSize=15,
+                              leading=18, textColor=MUTED, spaceAfter=1, alignment=TA_CENTER)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
                              leading=13, textColor=MUTED, spaceAfter=8, alignment=TA_CENTER)
     section = ParagraphStyle("section", fontName="Helvetica", fontSize=10,
