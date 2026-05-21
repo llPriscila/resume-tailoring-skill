@@ -6,19 +6,17 @@ London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.l
 
 ## Professional Summary
 
-Senior data analyst with deep experience producing regulatory-grade analytical outputs, building trusted reporting infrastructure, and generating insights that shape policy outcomes for people in financial difficulty. At DWP, closed an eight-year measurement gap in Universal Credit health applications — producing the first reliable, publicly verified statistics on one of the UK's most vulnerable claimant groups. Strong technical foundation in SQL and SAS across large-scale production environments, with experience designing automated data quality controls, building data governance frameworks, and partnering with senior stakeholders to turn ambiguous requirements into decision-ready data. Currently building dbt, BigQuery SQL, Looker, and Python to extend into modern analytics stacks.
+Senior data analyst specialising in financial health analytics — generating proactive insights that drive strategy, building trusted reporting infrastructure, and delivering regulatory-grade outputs for vulnerable customer populations. At DWP, closed an eight-year measurement gap in Universal Credit health applications, producing the UK's first verified statistics on a financially vulnerable claimant group subject to UK Statistics Authority scrutiny. Experienced in partnering with cross-functional product teams to structure complex problems, translate ambiguous requirements into governed data solutions, and build controls that ensure business processes are reliable and measurable. Technical foundation in SQL, SAS, and BigQuery, with hands-on experience in Looker dashboards and dbt.
 
 ---
 
 ## Key Skills
 
-**Data & Reporting:** SQL (production ETL, joins, aggregations, deduplication) • SAS (expert) • R (ggplot2, plotly, R Markdown) • Excel (advanced)
+**Analytics Stack:** BigQuery SQL • dbt • Looker • SQL (production ETL, joins, aggregations) • SAS • R (ggplot2, plotly, R Markdown) • Python • Git • Excel
 
-**Technical Skills:** SAS • SQL • R • BigQuery • Python • Looker • Excel • Git
+**Regulatory & Controls:** Data governance • Regulatory-grade statistical publication • Data quality frameworks • Automated validation controls • Business process controls • Official Statistics sign-off
 
-**Regulatory & Governance:** Data governance • Regulatory-grade statistical publication • Data quality frameworks • Automated validation controls • Official Statistics sign-off processes
-
-**Stakeholder Partnership:** Product and policy stakeholder engagement • Requirements translation • Cross-functional analytical delivery • Junior analyst coaching and development
+**Delivery:** Agile product team collaboration • Cross-functional stakeholder partnership • Requirements translation • Proactive insight generation • Junior analyst coaching
 
 ---
 
@@ -27,14 +25,14 @@ Senior data analyst with deep experience producing regulatory-grade analytical o
 ### Senior Data Analyst
 **DWP — London | Nov 2021 – Jan 2024**
 
-- Resolved an eight-year reporting gap on Universal Credit health applications — publishing the first verified statistics on financial health outcomes for a population of financially vulnerable claimants, subject to UK Statistics Authority scrutiny and director-level governance panels
-- Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale
-- Built spine data products by integrating multiple complex source datasets into unified analytical bases, enabling downstream analysis and automating previously manual reporting workflows
-- Built data governance frameworks and automated validation controls across multiple large-scale sources, materially reducing inconsistencies and improving reliability of analytical outputs — directly analogous to ensuring trusted data underpins business operations
-- Translated ambiguous business requirements into defined metrics and automated reporting solutions, improving access to timely, decision-ready performance data aligned with operational goals
-- Led agile cross-functional delivery, managing priorities, risks, and timelines across concurrent analytical workstreams
-- Developed intuitive data visualisations in R and Excel, prioritising usability for operational and policy decision-makers
-- Managed and coached junior analysts, setting objectives, reviewing outputs, and building team capability
+- Generated proactive analysis of Universal Credit health outcomes for financially vulnerable claimants, surfacing patterns that shaped policy strategy and resolved an eight-year reporting gap — published as the UK's first verified statistics, subject to UK Statistics Authority scrutiny and director-level governance
+- Partnered with operational and policy product teams to translate ambiguous requirements into defined metrics, automated reporting, and decision-ready dashboards — improving access to timely Financial Health performance data
+- Built and maintained controls to verify that data pipelines and reporting processes were running as intended, including automated validation frameworks that materially reduced inconsistencies across 800M+ records
+- Designed and implemented production ETL pipelines in SAS and SQL with disciplined code versioning, ensuring reproducibility, auditability, and trust at scale
+- Built spine data products by integrating multiple complex source datasets, enabling downstream analysis and improving accuracy, efficiency, and accessibility of reporting
+- Led agile cross-functional delivery across concurrent analytical workstreams, managing priorities and risks with operational and senior stakeholders
+- Developed intuitive data visualisations in R, prioritising usability for operational and policy decision-makers
+- Coached junior analysts on output standards and data quality practices, building team capability
 
 ### Head of Data Sharing and Identity Fraud Policy
 **Home Office — London | Jan 2024 – Mar 2026**
