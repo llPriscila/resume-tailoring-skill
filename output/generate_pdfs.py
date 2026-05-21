@@ -20,12 +20,12 @@ LINK    = colors.HexColor("#0366d6")
 BORDER  = colors.HexColor("#d0d7de")
 
 def make_styles():
-    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=26,
-                          leading=30, textColor=TEXT, spaceAfter=1)
-    subtitle = ParagraphStyle("subtitle", fontName="Helvetica", fontSize=13,
-                              leading=16, textColor=MUTED, spaceAfter=2)
+    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=24,
+                          leading=28, textColor=TEXT, spaceAfter=1)
+    subtitle = ParagraphStyle("subtitle", fontName="Helvetica-Bold", fontSize=12,
+                              leading=15, textColor=MUTED, spaceAfter=3)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
-                             leading=13, textColor=MUTED, spaceAfter=14)
+                             leading=13, textColor=MUTED, spaceAfter=6)
     section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=13,
                              leading=17, textColor=TEXT, spaceBefore=18, spaceAfter=4)
     role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
@@ -116,9 +116,10 @@ def build_pdf(md_path, pdf_path):
             i += 1
             continue
 
-        # Second non-empty line → contact
+        # Second non-empty line → contact + separator
         if after_subtitle and line.strip() and not line.startswith("#") and not line.startswith("-"):
             story.append(Paragraph(parse_md_inline(line.strip()), S["contact"]))
+            story.append(hr())
             after_subtitle = False
             i += 1
             continue
