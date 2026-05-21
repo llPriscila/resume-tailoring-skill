@@ -36,7 +36,7 @@ Senior data and policy professional with deep expertise in financial crime, iden
 - Influenced two commitments in the UK's National Fraud Strategy through targeted analytical recommendations and structured performance reporting to senior officials
 - Authored executive briefings and policy documents translating complex analysis into actionable recommendations for senior decision-makers
 
-### <font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font>
+### Senior Data Analyst
 **DWP — London | Nov 2021 – Jan 2024**
 
 - Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale

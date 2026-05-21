@@ -24,7 +24,7 @@ Senior data analyst with deep experience producing regulatory-grade analytical o
 
 ## Professional Experience
 
-### <font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font>
+### Senior Data Analyst
 **DWP — London | Nov 2021 – Jan 2024**
 
 - Resolved an eight-year reporting gap on Universal Credit health applications — publishing the first verified statistics on financial health outcomes for a population of financially vulnerable claimants, subject to UK Statistics Authority scrutiny and director-level governance panels

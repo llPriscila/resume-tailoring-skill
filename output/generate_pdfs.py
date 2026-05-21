@@ -143,7 +143,8 @@ def build_pdf(md_path, pdf_path):
 
         # H3 — role title
         if line.startswith("### "):
-            story.append(Paragraph(parse_md_inline(line[4:].strip()), S["role_title"]))
+            clean = re.sub(r'<[^>]+>', '', line[4:].strip())
+            story.append(Paragraph(parse_md_inline(clean), S["role_title"]))
             i += 1
             continue
 

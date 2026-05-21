@@ -24,7 +24,7 @@ Senior data analyst with a strong track record in operational MI transformation,
 
 ## Professional Experience
 
-### <font color="#57606a" size="5"><strong>Senior Data Analyst</strong></font>
+### Senior Data Analyst
 **DWP — London | Nov 2021 – Jan 2024**
 
 - Designed and implemented production ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility, auditability, and analytical trust at scale
