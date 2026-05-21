@@ -22,6 +22,15 @@ Senior data analyst specialising in financial health analytics — generating pr
 
 ## Professional Experience
 
+### Head of Data Sharing and Identity Fraud Policy
+**Home Office — London | Jan 2024 – Mar 2026**
+
+- Shaped the fraud component of the UK's new mandatory digital ID system, embedding risk as a core design consideration and structuring complex analysis for public consultation
+- Led strategic review of a national identity fraud database, quantifying prevention value and translating findings into a business case that secured £200k in funding
+- Created and ran a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement, surfacing barriers to economic crime data sharing and informing government policy
+- Delivered the UK's first public consultation on economic crime data sharing, structuring ambiguous requirements into a defined analytical framework and evidence base
+- Influenced two commitments in the UK's National Fraud Strategy through targeted analytical recommendations and structured performance reporting to senior officials
+
 ### Senior Data Analyst
 **DWP — London | Nov 2021 – Jan 2024**
 
@@ -33,15 +42,6 @@ Senior data analyst specialising in financial health analytics — generating pr
 - Led agile cross-functional delivery across concurrent analytical workstreams, managing priorities and risks with operational and senior stakeholders
 - Developed intuitive data visualisations in R, prioritising usability for operational and policy decision-makers
 - Coached junior analysts on output standards and data quality practices, building team capability
-
-### Head of Data Sharing and Identity Fraud Policy
-**Home Office — London | Jan 2024 – Mar 2026**
-
-- Shaped the fraud component of the UK's new mandatory digital ID system, embedding risk as a core design consideration and structuring complex analysis for public consultation
-- Led strategic review of a national identity fraud database, quantifying prevention value and translating findings into a business case that secured £200k in funding
-- Created and ran a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement, surfacing barriers to economic crime data sharing and informing government policy
-- Delivered the UK's first public consultation on economic crime data sharing, structuring ambiguous requirements into a defined analytical framework and evidence base
-- Influenced two commitments in the UK's National Fraud Strategy through targeted analytical recommendations and structured performance reporting to senior officials
 
 ### Junior Data Analyst
 **DWP — London | Oct 2019 – Nov 2021**
