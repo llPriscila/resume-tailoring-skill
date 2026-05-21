@@ -174,3 +174,4 @@ if __name__ == "__main__":
     md_to_pdf("Ioana_Criclevit_Zopa_Data_Analyst_Fraud_Financial_Crime_Resume.md", base)
     md_to_pdf("Ioana_Criclevit_Zopa_Senior_Analyst_Lending_Operations_Resume.md", base)
     md_to_pdf("Ioana_Criclevit_Monzo_Senior_Data_Analyst_Financial_Health_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_Elsevier_Senior_Data_Analyst_Resume.md", base)
