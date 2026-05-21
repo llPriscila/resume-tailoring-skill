@@ -25,9 +25,9 @@ def make_styles():
     subtitle = ParagraphStyle("subtitle", fontName="Helvetica-Bold", fontSize=12,
                               leading=15, textColor=MUTED, spaceAfter=3)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
-                             leading=13, textColor=MUTED, spaceAfter=6)
+                             leading=13, textColor=MUTED, spaceAfter=4)
     section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=13,
-                             leading=17, textColor=TEXT, spaceBefore=18, spaceAfter=4)
+                             leading=17, textColor=TEXT, spaceBefore=10, spaceAfter=4)
     role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
                                 leading=15, textColor=TEXT, spaceBefore=12, spaceAfter=1,
                                 keepWithNext=True)
