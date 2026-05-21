@@ -216,3 +216,6 @@ if __name__ == "__main__":
     md_to_pdf("Ioana_Criclevit_Zopa_Senior_Analyst_Lending_Operations_Resume.md", base)
     md_to_pdf("Ioana_Criclevit_Monzo_Senior_Data_Analyst_Financial_Health_Resume.md", base)
     md_to_pdf("Ioana_Criclevit_Elsevier_Senior_Data_Analyst_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_Sony_Analyst_Commercial_Insights_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_KAYAK_Analyst_Commercial_Analytics_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_Tripadvisor_Sales_Operations_Associate_Resume.md", base)
