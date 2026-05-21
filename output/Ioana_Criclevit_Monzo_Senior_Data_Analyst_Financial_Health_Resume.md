@@ -6,7 +6,7 @@ London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.l
 
 ## Professional Summary
 
-Senior data analyst specialising in financial health analytics — generating proactive insights that drive strategy, building trusted reporting infrastructure, and delivering regulatory-grade outputs for vulnerable customer populations. At DWP, closed an eight-year measurement gap in Universal Credit health applications, producing the UK's first verified statistics on a financially vulnerable claimant group subject to UK Statistics Authority scrutiny. Experienced in partnering with cross-functional product teams to structure complex problems, translate ambiguous requirements into governed data solutions, and build controls that ensure business processes are reliable and measurable. Technical foundation in SQL, SAS, and BigQuery, with hands-on experience in Looker dashboards and dbt.
+Senior data analyst specialising in financial health analytics — generating proactive insights that drive strategy, building trusted reporting infrastructure, and delivering regulatory-grade outputs for vulnerable customer populations. At DWP, closed an eight-year measurement gap in Universal Credit health applications, producing the UK's first verified statistics on a financially vulnerable claimant group subject to UK Statistics Authority scrutiny. Experienced in partnering with cross-functional product teams to structure complex problems, translate ambiguous requirements into governed data solutions, and build controls that ensure business processes are reliable and measurable. Strong technical foundation in SQL and SAS across large-scale production environments; actively extending into BigQuery, Looker, and dbt.
 
 ---
 
