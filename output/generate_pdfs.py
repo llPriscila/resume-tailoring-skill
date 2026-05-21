@@ -103,7 +103,15 @@ def build_pdf(md_path, pdf_path):
             i += 1
             continue
 
-        # Subtitle — first non-empty line after H1 that isn't a heading or bullet
+        # H3 immediately after H1 → subtitle
+        if after_h1 and line.startswith("### "):
+            clean = re.sub(r'<[^>]+>', '', line[4:].strip())
+            story.append(Paragraph(clean, S["subtitle"]))
+            after_h1 = False
+            i += 1
+            continue
+
+        # Subtitle — first non-empty non-heading non-bullet line after H1
         if after_h1 and line.strip() and not line.startswith("#") and not line.startswith("-"):
             clean = re.sub(r'<[^>]+>', '', line.strip())
             story.append(Paragraph(clean, S["subtitle"]))
