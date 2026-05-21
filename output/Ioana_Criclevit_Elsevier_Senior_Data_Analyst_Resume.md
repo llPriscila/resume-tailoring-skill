@@ -45,7 +45,7 @@ Senior data analyst with eight years of experience designing and delivering intu
 - Coached and advised junior analysts on data visualisation best practices and output standards, building team capability and improving insight quality.
 - Produced clear documentation of analytical definitions, methodologies, assumptions, and decision logic to support reproducibility, auditability, and consistent interpretation of outputs.
 
-### Data Analyst
+### Junior Data Analyst
 **Department for Work and Pensions (DWP) — London | Oct 2019 – Nov 2021**
 
 - Built interactive data visualisations in R (ggplot2, plotly, R Markdown), translating complex statistical outputs into accessible, user-centric reports for non-technical audiences.

@@ -45,7 +45,7 @@ Senior data analyst with deep experience producing regulatory-grade analytical o
 - Delivered the UK's first public consultation on economic crime data sharing, structuring ambiguous requirements into a defined analytical framework and evidence base
 - Influenced two commitments in the UK's National Fraud Strategy through targeted analytical recommendations and structured performance reporting to senior officials
 
-### Data Analyst
+### Junior Data Analyst
 **DWP — London | Oct 2019 – Nov 2021**
 
 - Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day

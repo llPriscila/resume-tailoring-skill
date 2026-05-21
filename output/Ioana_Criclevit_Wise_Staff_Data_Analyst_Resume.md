@@ -42,7 +42,7 @@ Senior data and analytics leader with eight years of experience delivering scala
 - Led agile cross-functional delivery, managing priorities, risks, and timelines across concurrent analytical workstreams to achieve consistent on-time delivery.
 - Managed and coached junior analysts, setting objectives, reviewing outputs, and building team capability and improving both the quality and independence of analytical delivery.
 
-### Data Analyst
+### Junior Data Analyst
 **Department for Work and Pensions (DWP) — London | Oct 2019 – Nov 2021**
 
 - Automated Quality Assurance processes in SAS from scratch, reducing a week-long manual process to a single day and significantly improving the accuracy and reliability of analytical outputs.

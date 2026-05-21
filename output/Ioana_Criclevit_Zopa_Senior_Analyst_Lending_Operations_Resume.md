@@ -37,7 +37,7 @@ Senior data analyst with a strong track record in operational MI transformation,
 - Managed and coached junior analysts, setting objectives, reviewing outputs, and building team capability
 - Produced clear documentation of analytical definitions, methodologies, assumptions, and decision logic to support reproducibility, auditability, and consistent interpretation of outputs
 
-### Data Analyst
+### Junior Data Analyst
 **DWP — London | Oct 2019 – Nov 2021**
 
 - Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day

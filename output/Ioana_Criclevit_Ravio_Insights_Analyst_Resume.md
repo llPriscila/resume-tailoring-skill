@@ -41,7 +41,7 @@ Data analyst with eight years of experience building automated analytical produc
 - Developed intuitive data visualisations and analytical products in R and Excel, prioritising usability for both operational and policy decision-makers.
 - Managed and coached junior analysts, setting objectives and reviewing outputs to build capability and ensure consistently high-quality insight delivery.
 
-### Data Analyst
+### Junior Data Analyst
 **Department for Work and Pensions (DWP) — London | Oct 2019 – Nov 2021**
 
 - Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day, directly improving the accuracy and reliability of analytical outputs.
