@@ -20,12 +20,10 @@ LINK    = colors.HexColor("#0366d6")
 BORDER  = colors.HexColor("#d0d7de")
 
 def make_styles():
-    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=22,
-                          leading=26, textColor=TEXT, spaceAfter=1, alignment=TA_CENTER)
-    subtitle = ParagraphStyle("subtitle", fontName="Helvetica", fontSize=14,
-                              leading=17, textColor=MUTED, spaceAfter=2, alignment=TA_CENTER)
+    name = ParagraphStyle("name", fontName="Helvetica-Bold", fontSize=26,
+                          leading=30, textColor=TEXT, spaceAfter=2)
     contact = ParagraphStyle("contact", fontName="Helvetica", fontSize=9,
-                             leading=13, textColor=MUTED, spaceAfter=14, alignment=TA_CENTER)
+                             leading=13, textColor=MUTED, spaceAfter=14)
     section = ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=13,
                              leading=17, textColor=TEXT, spaceBefore=18, spaceAfter=4)
     role_title = ParagraphStyle("role_title", fontName="Helvetica-Bold", fontSize=10.5,
@@ -47,7 +45,7 @@ def make_styles():
                              leading=14.5, textColor=TEXT, spaceAfter=4)
     currently = ParagraphStyle("currently", fontName="Helvetica-Oblique", fontSize=9,
                                leading=13, textColor=MUTED, spaceAfter=5)
-    return dict(name=name, subtitle=subtitle, contact=contact, section=section, role_title=role_title,
+    return dict(name=name, contact=contact, section=section, role_title=role_title,
                 role_meta=role_meta, bullet=bullet, body=body,
                 skills_label=skills_label, skills_body=skills_body,
                 summary=summary, currently=currently)
@@ -103,18 +101,9 @@ def build_pdf(md_path, pdf_path):
             i += 1
             continue
 
-        # H3 immediately after H1 → subtitle
-        if after_h1 and line.startswith("### "):
-            clean = re.sub(r'<[^>]+>', '', line[4:].strip())
-            story.append(Paragraph(clean, S["subtitle"]))
-            after_h1 = False
-            i += 1
-            continue
-
-        # Subtitle — first non-empty non-heading non-bullet line after H1
+        # Contact line after H1
         if after_h1 and line.strip() and not line.startswith("#") and not line.startswith("-"):
-            clean = re.sub(r'<[^>]+>', '', line.strip())
-            story.append(Paragraph(clean, S["subtitle"]))
+            story.append(Paragraph(parse_md_inline(line.strip()), S["contact"]))
             after_h1 = False
             i += 1
             continue
