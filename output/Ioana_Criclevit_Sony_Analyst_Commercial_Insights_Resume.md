@@ -6,15 +6,15 @@ London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.l
 
 ## Professional Summary
 
-Data analyst with eight years of experience building automated analytical products, developing methodologies to measure the impact of initiatives across complex multi-source datasets, and translating insight into clear, actionable recommendations for commercial and operational stakeholders. Track record of owning the full analytical lifecycle — from designing ETL pipelines and measurement frameworks to producing polished visualisations and stakeholder briefings. Brings strong SQL foundations, rigorous statistical grounding, and genuine enthusiasm for working with product and commercial teams to drive evidence-based decisions in fast-moving environments.
+Data analyst with eight years of experience building automated analytical products, developing methodologies to measure the impact of initiatives across complex multi-source datasets, and translating insight into clear, actionable recommendations for commercial and operational stakeholders. Track record of owning the full analytical lifecycle,from designing ETL pipelines and measurement frameworks to producing polished visualisations and stakeholder briefings. Brings strong SQL foundations, rigorous statistical grounding, and genuine enthusiasm for working with product and commercial teams to drive evidence-based decisions in fast-moving environments.
 
 ---
 
 ## Key Skills
 
-**Technical:** SQL · SAS · R (ggplot2, plotly, R Markdown) · Excel · Git · ETL pipeline design · Large-scale data processing (800M+ records) · Automated QA frameworks · Code versioning · Python (in development).
+**Technical:** SQL · SAS · R (ggplot2, plotly, R Markdown) · Excel · Git · ETL pipeline design · Large-scale data processing (800M+ records) · Automated QA frameworks · Code versioning.
 
-**Analysis:** Cohort and longitudinal analysis · Measuring impact of initiatives · A/B testing support · Statistical analysis · Translating ambiguous requirements into analytical frameworks · Multi-source data consolidation.
+**Analysis:** Measuring impact of policy initiatives · Statistical analysis · Translating ambiguous requirements into analytical frameworks · Multi-source data consolidation.
 
 **Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for commercial and non-technical stakeholders.
 
@@ -34,7 +34,7 @@ Data analyst with eight years of experience building automated analytical produc
 ### Senior Data Analyst
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
 
-- Developed and implemented a methodology for measuring outcomes across a complex, multi-source dataset where no established baseline existed, producing the UK's first statistics on the number of Universal Credit health claimants and closed an eight-year reporting gap.
+- Developed and implemented a methodology for measuring outcomes across complex, multi-source datasets where no established baseline existed, producing the UK's first statistics on the number of Universal Credit health claimants and closed an eight-year reporting gap.
 - Translated ambiguous business requirements into defined metrics and automated reporting solutions, delivering timely, decision-ready performance data while adapting quickly in a fast-paced, dynamic environment.
 - Established automated data quality frameworks and validation rules across multiple large-scale sources, resolving inconsistencies and materially improving reliability of analytical outputs.
 - Designed and implemented ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility and auditability.
@@ -44,7 +44,7 @@ Data analyst with eight years of experience building automated analytical produc
 ### Junior Data Analyst
 **Department for Work and Pensions (DWP) — London | Oct 2019 – Nov 2021**
 
-- Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day and materially improving the accuracy and reliability of analytical outputs — requiring keen attention to detail across a complex production environment.
+- Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day and materially improving the accuracy and reliability of analytical outputs.
 - Built interactive data visualisations in R (ggplot2, plotly) and R Markdown, translating complex statistical outputs into accessible, intuitive reports for non-technical audiences.
 - Delivered multiple simultaneous data products to tight, interdependent deadlines, achieving 100% on-time delivery through strong organisational skills and effective multi-tasking.
 - Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets.
@@ -53,7 +53,7 @@ Data analyst with eight years of experience building automated analytical produc
 **Department for Levelling Up, Housing & Communities — London | Apr 2018 – Oct 2019**
 
 - Consolidated and analysed data from 317 sources to build a unified analytical dataset supporting data-led reporting on national housing policy performance.
-- Automated data processing in R and SQL, reducing manual effort by 66% and delivering more reliable, reusable performance metrics.
+- Automated data processing in R and SQL, reducing manual effort from 6 weeks to 2 weeks and delivering more reliable, reusable performance metrics.
 - Produced analytical reports and data summaries for senior stakeholders, translating complex multi-source outputs into clear, actionable insights.
 
 ---
