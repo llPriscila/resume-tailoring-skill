@@ -46,7 +46,7 @@ Data analyst with eight years of experience building automated analytical produc
 
 - Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day and materially improving the accuracy and reliability of analytical outputs.
 - Built interactive data visualisations in R (ggplot2, plotly) and R Markdown, translating complex statistical outputs into accessible, intuitive reports for non-technical audiences.
-- Delivered multiple simultaneous data products to tight, interdependent deadlines, achieving 100% on-time delivery through strong organisational skills and effective multi-tasking.
+- Delivered multiple simultaneous data products to tight deadlines, achieving 100% on-time delivery through strong organisational skills and effective multi-tasking.
 - Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets.
 
 ### Data Analyst
