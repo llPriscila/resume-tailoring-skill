@@ -18,7 +18,7 @@ Data analyst with eight years of experience building automated analytical produc
 
 **Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for commercial and non-technical stakeholders.
 
-**Delivery & Collaboration:** Project management · Multi-tasking across simultaneous workstreams · Strong organisational skills · Cross-functional agile delivery · Commercial and operational stakeholder engagement · Data product lifecycle ownership · Coaching and mentoring junior analysts.
+**Delivery & Collaboration:** Project management · Multi-tasking across simultaneous workstreams · Strong organisational skills · Excellent written and verbal communication · Keen attention to detail · Adapting quickly in fast-paced, dynamic environments · Cross-functional agile delivery · Commercial and operational stakeholder engagement · Data product lifecycle ownership · Coaching and mentoring junior analysts.
 
 ---
 
@@ -35,7 +35,7 @@ Data analyst with eight years of experience building automated analytical produc
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
 
 - Developed and implemented a methodology for measuring outcomes across a complex, multi-source dataset where no established baseline existed, producing the UK's first statistics on the number of Universal Credit health claimants and closed an eight-year reporting gap.
-- Translated ambiguous business requirements into defined metrics and automated reporting solutions, improving access to timely, decision-ready performance data.
+- Translated ambiguous business requirements into defined metrics and automated reporting solutions, delivering timely, decision-ready performance data while adapting quickly in a fast-paced, dynamic environment.
 - Established automated data quality frameworks and validation rules across multiple large-scale sources, resolving inconsistencies and materially improving reliability of analytical outputs.
 - Designed and implemented ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility and auditability.
 - Developed intuitive data visualisations and analytical products in R and Excel, prioritising usability for operational and policy decision-makers.
@@ -44,9 +44,9 @@ Data analyst with eight years of experience building automated analytical produc
 ### Junior Data Analyst
 **Department for Work and Pensions (DWP) — London | Oct 2019 – Nov 2021**
 
-- Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day, directly improving the accuracy and reliability of analytical outputs.
+- Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day and materially improving the accuracy and reliability of analytical outputs — requiring keen attention to detail across a complex production environment.
 - Built interactive data visualisations in R (ggplot2, plotly) and R Markdown, translating complex statistical outputs into accessible, intuitive reports for non-technical audiences.
-- Demonstrated strong organisational skills and multi-tasking across multiple simultaneous data products, achieving 100% on-time delivery under tight, interdependent deadlines.
+- Delivered multiple simultaneous data products to tight, interdependent deadlines, achieving 100% on-time delivery through strong organisational skills and effective multi-tasking.
 - Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets.
 
 ### Data Analyst
