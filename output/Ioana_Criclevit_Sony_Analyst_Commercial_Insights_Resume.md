@@ -18,7 +18,7 @@ Data analyst with eight years of experience building automated analytical produc
 
 **Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for commercial and non-technical stakeholders.
 
-**Delivery & Collaboration:** Cross-functional agile delivery · Commercial and operational stakeholder engagement · Data product lifecycle ownership · Coaching and mentoring junior analysts.
+**Delivery & Collaboration:** Project management · Managing competing priorities across simultaneous workstreams · Cross-functional agile delivery · Commercial and operational stakeholder engagement · Data product lifecycle ownership · Coaching and mentoring junior analysts.
 
 ---
 
@@ -27,7 +27,7 @@ Data analyst with eight years of experience building automated analytical produc
 ### Data Sharing and Identity Fraud Policy Lead
 **Home Office — London | Jan 2024 – Mar 2026**
 
-- Established and ran a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement, synthesising diverse stakeholder input into structured, evidence-based recommendations for senior decision-makers.
+- Project-managed a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement — coordinating schedules, agendas, and deliverables across multiple concurrent workstreams while synthesising diverse stakeholder input into structured, evidence-based recommendations for senior decision-makers.
 - Delivered the UK's first public consultation on economic crime data sharing, translating complex cross-government requirements into clear analytical frameworks and accessible policy documentation.
 - Produced executive briefings and policy papers translating complex, multi-source analysis into clear, actionable recommendations for technical and non-technical audiences.
 
@@ -46,7 +46,7 @@ Data analyst with eight years of experience building automated analytical produc
 
 - Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day, directly improving the accuracy and reliability of analytical outputs.
 - Built interactive data visualisations in R (ggplot2, plotly) and R Markdown, translating complex statistical outputs into accessible, intuitive reports for non-technical audiences.
-- Delivered recurring publication-ready data products under tight deadlines, achieving 100% on-time delivery across a complex, interdependent workload.
+- Managed multiple simultaneous data products and publication deadlines, achieving 100% on-time delivery through strong organisational discipline and prioritisation across a complex, interdependent workload.
 - Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets.
 
 ### Data Analyst

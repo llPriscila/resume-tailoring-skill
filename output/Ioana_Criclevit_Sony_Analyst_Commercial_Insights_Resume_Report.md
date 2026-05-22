@@ -47,6 +47,7 @@ Date: 2026-05-21
 | Gaming / subscription industry | Medium | No direct experience; genuine interest angle available in cover letter |
 | Airflow | Low | Not required, only preferred |
 | Domo / Tableau | Low | Power BI is a strong transferable; not required |
+| Soft skills: project management, multi-tasking, organisational skills | Low (fixed) | Evidence existed but was not surfaced. Fixed by: (1) adding "Project management" and "Managing competing priorities across simultaneous workstreams" to Key Skills; (2) reframing the DWP Junior on-time-delivery bullet to foreground organisational discipline and multi-tasking; (3) reframing the Home Office working-group bullet to open with "Project-managed" and make concurrent-workstream coordination explicit. |
 
 ---
 
