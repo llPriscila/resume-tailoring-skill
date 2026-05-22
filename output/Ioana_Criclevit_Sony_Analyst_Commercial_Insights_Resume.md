@@ -27,14 +27,14 @@ Data analyst with eight years of experience building automated analytical produc
 ### Data Sharing and Identity Fraud Policy Lead
 **Home Office — London | Jan 2024 – Mar 2026**
 
-- Project-managed a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement — coordinating schedules, agendas, and deliverables across multiple concurrent workstreams while synthesising diverse stakeholder input into structured, evidence-based recommendations for senior decision-makers.
-- Delivered the UK's first public consultation on economic crime data sharing, translating complex cross-government requirements into clear analytical frameworks and accessible policy documentation.
+- Project-managed a cross-sector working group of 85+ organisations across banking, fintech, telecoms and law enforcement, coordinating schedules, agendas, and deliverables across multiple concurrent workstreams while synthesising diverse stakeholder input into structured, evidence-based recommendations for senior decision-makers.
+- Delivered the UK's first public consultation on economic crime data sharing, translating complex cross-government requirements into policy proposals.
 - Produced executive briefings and policy papers translating complex, multi-source analysis into clear, actionable recommendations for technical and non-technical audiences.
 
 ### Senior Data Analyst
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
 
-- Developed and implemented a methodology for measuring outcomes across a complex, multi-source dataset where no established baseline existed — producing the UK's first verified statistics on Universal Credit health claimants and closing an eight-year reporting gap.
+- Developed and implemented a methodology for measuring outcomes across a complex, multi-source dataset where no established baseline existed, producing the UK's first statistics on the number of Universal Credit health claimants and closed an eight-year reporting gap.
 - Translated ambiguous business requirements into defined metrics and automated reporting solutions, improving access to timely, decision-ready performance data.
 - Established automated data quality frameworks and validation rules across multiple large-scale sources, resolving inconsistencies and materially improving reliability of analytical outputs.
 - Designed and implemented ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility and auditability.
@@ -46,7 +46,7 @@ Data analyst with eight years of experience building automated analytical produc
 
 - Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day, directly improving the accuracy and reliability of analytical outputs.
 - Built interactive data visualisations in R (ggplot2, plotly) and R Markdown, translating complex statistical outputs into accessible, intuitive reports for non-technical audiences.
-- Demonstrated strong organisational skills and multi-tasking across multiple simultaneous publication-ready data products, achieving 100% on-time delivery under tight, interdependent deadlines.
+- Demonstrated strong organisational skills and multi-tasking across multiple simultaneous data products, achieving 100% on-time delivery under tight, interdependent deadlines.
 - Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets.
 
 ### Data Analyst
