@@ -18,7 +18,7 @@ Data analyst with eight years of experience building automated analytical produc
 
 **Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for commercial and non-technical stakeholders.
 
-**Delivery & Collaboration:** Project management · Managing competing priorities across simultaneous workstreams · Cross-functional agile delivery · Commercial and operational stakeholder engagement · Data product lifecycle ownership · Coaching and mentoring junior analysts.
+**Delivery & Collaboration:** Project management · Multi-tasking across simultaneous workstreams · Strong organisational skills · Cross-functional agile delivery · Commercial and operational stakeholder engagement · Data product lifecycle ownership · Coaching and mentoring junior analysts.
 
 ---
 
@@ -46,7 +46,7 @@ Data analyst with eight years of experience building automated analytical produc
 
 - Automated QA processes in SAS from scratch, reducing a week-long manual process to a single day, directly improving the accuracy and reliability of analytical outputs.
 - Built interactive data visualisations in R (ggplot2, plotly) and R Markdown, translating complex statistical outputs into accessible, intuitive reports for non-technical audiences.
-- Managed multiple simultaneous data products and publication deadlines, achieving 100% on-time delivery through strong organisational discipline and prioritisation across a complex, interdependent workload.
+- Demonstrated strong organisational skills and multi-tasking across multiple simultaneous publication-ready data products, achieving 100% on-time delivery under tight, interdependent deadlines.
 - Extracted and manipulated data from operational relational databases using SAS, performing joins, filters, and aggregations to build analysis-ready datasets.
 
 ### Data Analyst
