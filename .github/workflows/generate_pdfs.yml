@@ -2,7 +2,7 @@ name: Generate CV PDFs
 
 on:
   push:
-    branches: [master]
+    branches: [master, "claude/**"]
     paths:
       - 'output/**_Resume.md'
       - 'output/generate_pdfs.py'
@@ -48,7 +48,7 @@ jobs:
             echo "No PDF changes to commit."
           else
             git commit -m "chore: regenerate CV PDFs [skip ci]"
-            git push origin HEAD:master
+            git push origin HEAD
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
