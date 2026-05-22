@@ -34,7 +34,7 @@ Data analyst with eight years of experience building automated analytical produc
 ### Senior Data Analyst
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
 
-- Developed and implemented a methodology for measuring outcomes across a complex, multi-source dataset where no established baseline existed — producing the UK's first verified statistics on Universal Credit health claimants and closing an eight-year reporting gap.
+- Developed and implemented a methodology for measuring outcomes across a complex, multi-source dataset where no established baseline existed, producing the UK's first statistics on the number of Universal Credit health claimants and closing an eight-year reporting gap.
 - Translated ambiguous business requirements into defined metrics and automated reporting solutions, improving access to timely, decision-ready performance data.
 - Established automated data quality frameworks and validation rules across multiple large-scale sources, resolving inconsistencies and materially improving reliability of analytical outputs.
 - Designed and implemented ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility and auditability.
