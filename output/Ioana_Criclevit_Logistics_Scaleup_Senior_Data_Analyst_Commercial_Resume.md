@@ -14,7 +14,7 @@ Senior data analyst with eight years of experience owning dashboards and reporti
 
 **Technical:** SQL · SAS · R · Power BI · Excel · ETL pipeline design · Large-scale data processing (800M+ records) · Automated QA and data quality frameworks · Git · Code versioning.
 
-**Analysis & Reporting:** Commercial and operational performance analytics · Dashboard and reporting pack ownership · KPI and SLA monitoring · Root cause investigation · Discrepancy resolution · Structured and ad hoc analysis · Multi-source data consolidation.
+**Analysis & Reporting:** Commercial and operational performance analytics · Dashboard and reporting pack ownership · Root cause investigation · Discrepancy resolution · Structured and ad hoc analysis · Multi-source data consolidation.
 
 **Stakeholder Engagement:** Senior commercial stakeholder management · Translating complex data into clear, non-technical recommendations · Cross-functional collaboration in fast-paced environments · Coaching and mentoring junior analysts.
 
