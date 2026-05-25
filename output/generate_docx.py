@@ -229,5 +229,11 @@ if __name__ == '__main__':
         'Ioana_Criclevit_Zopa_Data_Analyst_Fraud_Financial_Crime_Resume.md',
         'Ioana_Criclevit_Zopa_Senior_Analyst_Lending_Operations_Resume.md',
         'Ioana_Criclevit_Monzo_Senior_Data_Analyst_Financial_Health_Resume.md',
+        'Ioana_Criclevit_Elsevier_Senior_Data_Analyst_Resume.md',
+        'Ioana_Criclevit_Sony_Analyst_Commercial_Insights_Resume.md',
+        'Ioana_Criclevit_KAYAK_Analyst_Commercial_Analytics_Resume.md',
+        'Ioana_Criclevit_Tripadvisor_Sales_Operations_Associate_Resume.md',
+        'Ioana_Criclevit_Logistics_ScaleUp_Senior_Data_Analyst_Commercial_Resume.md',
+        'Ioana_Criclevit_INSHUR_Senior_Data_Enablement_Analyst_Resume.md',
     ]:
         md_to_docx(f, base)
