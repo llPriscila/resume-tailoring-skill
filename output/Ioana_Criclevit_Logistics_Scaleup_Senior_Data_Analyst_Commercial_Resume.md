@@ -32,7 +32,7 @@ Senior data analyst with eight years of experience owning dashboards and reporti
 ### Senior Data Analyst
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
 
-- Owned recurring dashboards and operational performance reporting packs, delivering structured and ad hoc analysis to senior stakeholders across a complex, multi-team environment.
+- Owned recurring dashboards and operational performance reporting packs, delivering structured ad hoc analysis to senior stakeholders across a complex, multi-team environment.
 - Investigated and resolved performance discrepancies across multiple large-scale datasets, performing root cause analysis and translating findings into clear recommendations for operational decision-makers.
 - Established automated data quality frameworks and validation rules, materially improving the integrity and reliability of analytical outputs used to monitor operational KPIs.
 - Designed and implemented ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility and auditability.
