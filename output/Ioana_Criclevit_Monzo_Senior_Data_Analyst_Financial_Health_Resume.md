@@ -12,7 +12,7 @@ Senior data analyst specialising in financial health analytics — generating pr
 
 ## Key Skills
 
-**Analytics Stack:** BigQuery SQL • dbt • Looker • SQL (production ETL, joins, aggregations) • SAS • R (ggplot2, plotly, R Markdown) • Python • Git • Excel
+**Analytics Stack:**  SQL • Power BI • SAS • R (ggplot2, plotly, R Markdown) • Git • Excel
 
 **Regulatory & Controls:** Data governance • Regulatory-grade statistical publication • Data quality frameworks • Automated validation controls • Business process controls • Official Statistics sign-off
 

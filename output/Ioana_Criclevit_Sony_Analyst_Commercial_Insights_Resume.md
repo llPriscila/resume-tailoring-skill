@@ -6,17 +6,17 @@ London • 07759124932 • ioanapcriclevit@gmail.com • [LinkedIn](http://www.l
 
 ## Professional Summary
 
-Data analyst with eight years of experience building automated analytical products, developing methodologies to measure the impact of initiatives across complex multi-source datasets, and translating insight into clear, actionable recommendations for commercial and operational stakeholders. Track record of owning the full analytical lifecycle — from designing ETL pipelines and measurement frameworks to producing polished visualisations and stakeholder briefings. Brings strong SQL foundations, rigorous statistical grounding, and genuine enthusiasm for working with product and commercial teams to drive evidence-based decisions in fast-moving environments.
+Data analyst with eight years of experience building automated analytical products, developing methodologies to measure the impact of policy initiatives across complex multi-source datasets, and translating insight into clear, actionable recommendations for operational stakeholders. Track record of owning the full analytical lifecycle, from designing ETL pipelines and measurement frameworks to producing polished visualisations and stakeholder briefings. Brings strong SQL foundations, rigorous statistical grounding, and genuine enthusiasm for working with product and commercial teams to drive evidence-based decisions in fast-moving environments.
 
 ---
 
 ## Key Skills
 
-**Technical:** SQL · SAS · R (ggplot2, plotly, R Markdown) · Excel · Git · ETL pipeline design · Large-scale data processing (800M+ records) · Automated QA frameworks · Code versioning · Python (in development).
+**Technical:** SQL · SAS · R (ggplot2, plotly, R Markdown) · Excel · Git · ETL pipeline design · Large-scale data processing (800M+ records) · Automated QA frameworks · Code versioning.
 
-**Analysis:** Cohort and longitudinal analysis · Measuring impact of initiatives · A/B testing support · Statistical analysis · Translating ambiguous requirements into analytical frameworks · Multi-source data consolidation.
+**Analysis:** Measuring impact of initiatives · Statistical analysis · Translating ambiguous requirements into analytical frameworks · Multi-source data consolidation.
 
-**Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for commercial and non-technical stakeholders.
+**Visualisation & Reporting:** Interactive visualisations and reports in R · Power BI · Reports tailored for non-technical stakeholders.
 
 **Delivery & Collaboration:** Cross-functional agile delivery · Commercial and operational stakeholder engagement · Data product lifecycle ownership · Coaching and mentoring junior analysts.
 
@@ -34,7 +34,7 @@ Data analyst with eight years of experience building automated analytical produc
 ### Senior Data Analyst
 **Department for Work and Pensions (DWP) — London | Nov 2021 – Jan 2024**
 
-- Developed and implemented a methodology for measuring outcomes across a complex, multi-source dataset where no established baseline existed — producing the UK's first verified statistics on Universal Credit health claimants and closing an eight-year reporting gap.
+- Developed and implemented a methodology for measuring outcomes across a complex, multi-source dataset where no established baseline existed, producing the UK's first statistics on the number of Universal Credit health claimants and closing an eight-year reporting gap.
 - Translated ambiguous business requirements into defined metrics and automated reporting solutions, improving access to timely, decision-ready performance data.
 - Established automated data quality frameworks and validation rules across multiple large-scale sources, resolving inconsistencies and materially improving reliability of analytical outputs.
 - Designed and implemented ETL pipelines in SAS and SQL, processing 800M+ records with disciplined code versioning to ensure reproducibility and auditability.
