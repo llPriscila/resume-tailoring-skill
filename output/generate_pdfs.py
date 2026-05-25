@@ -220,3 +220,4 @@ if __name__ == "__main__":
     md_to_pdf("Ioana_Criclevit_KAYAK_Analyst_Commercial_Analytics_Resume.md", base)
     md_to_pdf("Ioana_Criclevit_Tripadvisor_Sales_Operations_Associate_Resume.md", base)
     md_to_pdf("Ioana_Criclevit_Logistics_ScaleUp_Senior_Data_Analyst_Commercial_Resume.md", base)
+    md_to_pdf("Ioana_Criclevit_INSHUR_Senior_Data_Enablement_Analyst_Resume.md", base)
